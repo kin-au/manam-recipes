@@ -1,0 +1,32 @@
+{
+  "recipes": [
+    {
+      "name": "NAME",
+      "description": "DESCRIPTION",
+      "time": 30,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"]
+    },
+    {
+      "name": "NAME",
+      "description": "DESCRIPTION",
+      "time": 30,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"]
+    },
+    {
+      "name": "NAME",
+      "description": "DESCRIPTION",
+      "time": 30,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"]
+    },
+    {
+      "name": "NAME",
+      "description": "DESCRIPTION",
+      "time": 30,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"]
+    }
+  ]
+}
