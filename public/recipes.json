@@ -3,30 +3,37 @@
     {
       "name": "NAME",
       "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
       "time": 30,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
-      "steps": ["STEP 1", "STEP 2", "STEP 3"]
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
     },
     {
-      "name": "NAME",
+      "name": "Kimchi pancake",
       "description": "DESCRIPTION",
-      "time": 30,
-      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
-      "steps": ["STEP 1", "STEP 2", "STEP 3"]
-    },
-    {
-      "name": "NAME",
-      "description": "DESCRIPTION",
-      "time": 30,
-      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
-      "steps": ["STEP 1", "STEP 2", "STEP 3"]
-    },
-    {
-      "name": "NAME",
-      "description": "DESCRIPTION",
-      "time": 30,
-      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
-      "steps": ["STEP 1", "STEP 2", "STEP 3"]
+      "cuisine": "Korean",
+      "type": "Meal",
+      "servings": "PORTIONS",
+      "time": 15,
+      "ingredients": [
+        "230g chopped kimchi",
+        "2 tbsp kimchi brine",
+        "3 spring onions",
+        "1/2 tsp sugar",
+        "1/2 cup plain flour",
+        "1/2 cup water"
+      ],
+      "steps": [
+        "Mix all ingredients together in a bowl",
+        "In a large flat frying pan, heat up some oil on medium-high heat",
+        "Spread the mix evenly onto the frying pan",
+        "When nicely browned on one side, flip the pancake over",
+        "Once fully cooked, cut into squares and serve"
+      ],
+      "source": "https://mykoreankitchen.com/kimchi-pancakes-kimchi-buchimgae"
     }
   ]
 }
