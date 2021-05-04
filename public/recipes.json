@@ -12,6 +12,49 @@
       "source": "SOURCE"
     },
     {
+      "name": "Mexican wrap",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 30,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Pesto pasta",
+      "description": "DESCRIPTION",
+      "cuisine": "Italian",
+      "type": "Meal",
+      "servings": "2 servings",
+      "time": 20,
+      "ingredients": [
+        "3 eggs",
+        "15g pine nuts",
+        "65g chorizo",
+        "150g fusilli or penne pasta",
+        "100g spinach",
+        "75g pesto (2 heaped tbsp)",
+        "Sundried tomatoes"
+      ],
+      "steps": [
+        "Cook 150g pasta in boiling water with some salt",
+        "Chop sundried tomates into pieces",
+        "Toast 15g pine nuts on a frying pan at medium heat, ensuring to toss frequently to prevent burning",
+        "Set pine nuts aside",
+        "Pan fry 65g chorizo on medium heat",
+        "Set chorizo aside, keeping the fatty oils in the pan",
+        "Fry 3 eggs using the chorizo oil in the pan, breaking it up into small pieces",
+        "Remove the frying pan from the heat",
+        "Once the pasta is cooked, drain the water, keeping 1/8 cup water",
+        "Add the pasta, sundried tomates, chorizo, pine nuts and 100g spinach to the eggs in the frying pan",
+        "Mix ingredients togethe and, as the spinach softens, add 75g pesto with 1/8 cup water with the pesto",
+        "Season to taste with salt and pepper"
+      ],
+      "source": "OG"
+    },
+    {
       "name": "Kimchi pancake",
       "description": "DESCRIPTION",
       "cuisine": "Korean",
