@@ -6,18 +6,7 @@
       "cuisine": "CUISINE",
       "type": "TYPE",
       "servings": "PORTIONS",
-      "time": 30,
-      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
-      "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
-    },
-    {
-      "name": "Mexican wrap",
-      "description": "DESCRIPTION",
-      "cuisine": "CUISINE",
-      "type": "TYPE",
-      "servings": "PORTIONS",
-      "time": 30,
+      "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
       "source": "SOURCE"
@@ -60,7 +49,7 @@
       "cuisine": "Korean",
       "type": "Meal",
       "servings": "PORTIONS",
-      "time": 15,
+      "time": 20,
       "ingredients": [
         "230g chopped kimchi",
         "2 tbsp kimchi brine",
@@ -77,6 +66,289 @@
         "Once fully cooked, cut into squares and serve"
       ],
       "source": "https://mykoreankitchen.com/kimchi-pancakes-kimchi-buchimgae"
+    },
+    {
+      "name": "Tteokbokki (spicy rice cakes)",
+      "description": "DESCRIPTION",
+      "cuisine": "Korean",
+      "type": "Meal",
+      "servings": "PORTIONS",
+      "time": 45,
+      "ingredients": [
+        "3 tbsp gochujang (Korean chilli paste)",
+        "1.5 tbsp sugar",
+        "1 tbsp soy sauce",
+        "1 tsp minced garlic",
+        "1 tsp chilli flakes",
+        "350g Korean rice cakes",
+        "150g Korean fish cakes",
+        "60g onion, thinly sliced",
+        "2 cups Korean soup stock (dried kelp and anchovy stock), can substitute with other stock",
+        "Chopped green onion",
+        "Sesame seeds",
+        "Sesame oil"
+      ],
+      "steps": [
+        "Soak 350g Korean rice cake in warm water for 10 mins",
+        "To make the sauce, mix 3 tbsp gochujang, 1.5 tbsp sugar, 1 tbsp soy sauce, 1 tsp minced garlic, 1 tsp chilli flakes",
+        "Bring to a boil the sauce mix with 2 cups Korean soup stock, Korean rice cakes, 150g Korean fish cakes, 60g onion",
+        "Simmer until thick, periodically scraping the base of the pan",
+        "Serve with sesame oil, sesame seeds, and green onion"
+      ],
+      "source": "https://mykoreankitchen.com/tteokbokki-spicy-rice-cakes/"
+    },
+    {
+      "name": "Budae Jjigae (army stew)",
+      "description": "DESCRIPTION",
+      "cuisine": "Korean",
+      "type": "Meal",
+      "servings": "PORTIONS",
+      "time": 30,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Mexican wrap",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Pan-seared salmon with teriyaki sauce",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Teriyaki sauce",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Five spice roast chicken",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Indian curry",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Japanese curry rice",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Lasagne",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Chicken laksa",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Cottage pie",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Hainanese chicken",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Pork chop rice",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Pad Thai",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Chicken avocado salad",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Cashew chicken",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Fish amok",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Middle Eastern style beef stew",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Creamy lentil chicken thighs",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Chinese BBQ pork",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Ribeye steak",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Thai green curry",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "White-wine risotto",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
+    },
+    {
+      "name": "Black bean sweet potato stew",
+      "description": "DESCRIPTION",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
+      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "source": "SOURCE"
     }
   ]
 }
