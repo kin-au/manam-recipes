@@ -12,6 +12,30 @@
       "source": "SOURCE"
     },
     {
+      "name": "Pizza dough",
+      "description": "DESCRIPTION",
+      "cuisine": "Italian",
+      "type": "Base",
+      "servings": "2 large pizzas",
+      "time": 0,
+      "ingredients": [
+        "650g bread flour",
+        "7g yeast",
+        "10g salt",
+        "25ml olive oil",
+        "20g warm soya milk",
+        "325g 30deg water"
+      ],
+      "steps": [
+        "Mix flour, salt and yeast in a large bowl",
+        "Add olive oil and warm milk, mix together",
+        "Add warm water",
+        "Knead for 5 minutes",
+        "Place in warm area for around 1 hour, or until doubled in size"
+      ],
+      "source": "https://www.bbc.co.uk/food/recipes/pizzadoughbase_70980"
+    },
+    {
       "name": "Pesto pasta",
       "description": "DESCRIPTION",
       "cuisine": "Italian",
