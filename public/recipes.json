@@ -333,15 +333,62 @@
       "source": "SOURCE"
     },
     {
-      "name": "Middle Eastern style beef stew",
+      "name": "Chermoula spice blend",
       "description": "DESCRIPTION",
-      "cuisine": "CUISINE",
-      "type": ["TYPE"],
+      "cuisine": "Morroccan",
+      "type": ["Spice"],
       "servings": "PORTIONS",
       "time": 0,
-      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
-      "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "ingredients": [
+        "4 tbsp ground cumin",
+        "2 tbsp ground coriander",
+        "2 tsp chilli",
+        "3 tsp sweet paprika",
+        "2 tsp ground cinammon",
+        "1.5 tsp ground allspice",
+        "1.5 tsp gound ginger",
+        "1 tsp turmeric"
+      ],
+      "steps": [
+        "Combine all of the ingredients",
+        "Store in an airtight container, in a cool dark place for up to 1 year"
+      ],
+      "source": "https://www.finecooking.com/recipe/charmoula-spice-blend"
+    },
+    {
+      "name": "Middle Eastern style beef stew",
+      "description": "DESCRIPTION",
+      "cuisine": "Morroccan",
+      "type": ["TYPE"],
+      "servings": "2 portions",
+      "time": 0,
+      "ingredients": [
+        "250g minced beef",
+        "1 courgette (sliced rounds 1cm thick)",
+        "1 lemon (zested and halved)",
+        "1 red pepper (thin strips)",
+        "1 tbsp chermoula spice",
+        "500g passata",
+        "120g couscous",
+        "1 onion (diced)",
+        "1 clove garlic (finely chopped)",
+        "240ml hot (not boiling) water",
+        "100g feta cheese (crumbled)"
+      ],
+      "steps": [
+        "Add some oil to a frying pan on high heat",
+        "When the oil is hot, add 1 onion (diced) and 1 clove garlic (finely chopped)",
+        "When the onion and garlic have browned, add the beef mince, breaking it up as it cooks",
+        "When the beef is 1/2 cooked, add 1 red pepper (thin strips), 1 tbsp chermoula spice, and 500g passata",
+        "Bring pan to the boil, then lower the heat to simmer until thick and tomatoey",
+        "Put 120g couscous in a large bowl, add lemon zest, a drizzle of olive oil, salt and pepper",
+        "Pour 240ml hot (not boiling) water for the couscous, cover tightly with cling film, and set aside",
+        "In another fryin pan on high heat (without oil), cook 1 courgette (sliced rounds 1cm thick), charring on both sides",
+        "If needed, season the stew with salt and pepper",
+        "Fluff up the couscous with a fork and, if needed, add lemon juice to taste",
+        "Serve the stew over the couscous in large bowls, add the courgettes, and top with 100g feta cheese (crumbled)"
+      ],
+      "source": "HelloFresh"
     },
     {
       "name": "Creamy lentil chicken thighs",
