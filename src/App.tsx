@@ -1,4 +1,4 @@
-import "./App.css";
+import { GlobalStyle } from "./App.style";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 
@@ -15,6 +15,7 @@ const App = () => {
   };
   return (
     <>
+      <GlobalStyle />
       <Header />
       <Footer />
     </>
