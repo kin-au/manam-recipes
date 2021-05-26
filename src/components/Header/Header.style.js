@@ -8,7 +8,7 @@ const Header = styled.header`
   width: 100%;
   background-color: ${lightTheme.colors.background};
   color: ${lightTheme.colors.primary};
-  font-size: 3rem;
+  font-size: 2rem;
 `;
 
 export { Header };
