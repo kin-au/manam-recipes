@@ -12,6 +12,53 @@
       "source": "SOURCE"
     },
     {
+      "name": "Pad Kra Pao sauce",
+      "description": "DESCRIPTION",
+      "cuisine": "Thai",
+      "type": ["Sauce"],
+      "servings": "2",
+      "time": 5,
+      "ingredients": [
+        "2 tbsp oyster sauce",
+        "2 tbsp soya sauce",
+        "1 tbsp fish sauce",
+        "1 tbsp dark soya sauce",
+        "4-5 tbsp water",
+        "3 tbsp sugar"
+      ],
+      "steps": ["Combine all ingredients in a bowl and mix well"],
+      "source": "WxY recipes"
+    },
+    {
+      "name": "Pad Kra Pao (Thai basil dish)",
+      "description": "DESCRIPTION",
+      "cuisine": "Thai",
+      "type": ["Lunch", "Dinner"],
+      "servings": "2",
+      "time": 30,
+      "ingredients": [
+        "2 birds eye chili, crushed",
+        "2 cloves garlic, minced",
+        "500g mince pork or turkey, or diced chicken",
+        "220g long beans, cut in thirds",
+        "1 white onion, diced",
+        "1 egg per person",
+        "1 handful basil leaves, loosey chopped",
+        "Pad Kra Pao sauce"
+      ],
+      "steps": [
+        "Sauté garlic and chili together until fragrant and garlic starts to brown",
+        "Add mince/ chicken to the pan. For the mince, keep breaking it up and stirring so the aromatics incorporate to the mince",
+        "When meat is 1/2 cooked, add sauce and toss to make sure the sauce incorporates in to the mince well",
+        "When meat is 3/4 done, add onions and beans, tossing to incorporate",
+        "Put lid on pan and allow beans to cook for 4 minutes",
+        "In a separate pan fry your eggs. Thai fried eggs are fried in super hot oil for it to bubble",
+        "When beans are cooked, take the pan off heat and stir in the basil",
+        "Serve the mince and beans with rice, and put your egg on top"
+      ],
+      "source": "WxY recipes"
+    },
+    {
       "name": "Pizza dough",
       "description": "DESCRIPTION",
       "cuisine": "Italian",
@@ -289,15 +336,52 @@
       "source": "SOURCE"
     },
     {
-      "name": "Pad Thai",
+      "name": "Pad Thai sauce",
       "description": "DESCRIPTION",
-      "cuisine": "CUISINE",
-      "type": ["TYPE"],
+      "cuisine": "Thai",
+      "type": ["Sauce"],
       "servings": "PORTIONS",
       "time": 0,
-      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
-      "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "ingredients": [
+        "2 tbsp fish sauce",
+        "3 tbsp brown sugar",
+        "1 tbsp rice wine vinegar",
+        "2 tbsp ketchup",
+        "1 tbsp soy sauce",
+        "1 tbsp lime juice"
+      ],
+      "steps": ["Combine all ingredients in a bowl and mix well"],
+      "source": "WxY recipes"
+    },
+    {
+      "name": "Pad Thai",
+      "description": "DESCRIPTION",
+      "cuisine": "Thai",
+      "type": ["Lunch", "Dinner"],
+      "servings": "1",
+      "time": 0,
+      "ingredients": [
+        "100g Pad Thai noodles",
+        "1/2 onion, diced",
+        "2 garlic cloves, crushed",
+        "2 eggs, beaten",
+        "Protein of choice (chicken, prawns, tofu)",
+        "1/4 lime",
+        "Chilli flakes",
+        "Peanuts, crushed",
+        "Pad Thai sauce"
+      ],
+      "steps": [
+        "Scald noodles in a bowl of boiled water for 3 minutes. You don’t want to cook them fully, just so that they become malleable. Drain and air dry in a colander",
+        "Cook the protein so that it’s 3/4 done and remove from pan. Wipe the pan",
+        "Heat a little bit of oil in the pan and add onions and garlic until aromatic",
+        "Make a well in the middle and add the egg. Incorporate it with the aromatics as it cooks",
+        "Toss in the noodles, breaking them up and cook until softened",
+        "Add back the chicken",
+        "When chicken is mostly cooked, add in the sauce and cook to distribute evenly. The moisture from this should also soften the noodles",
+        "Serve with peanuts and chilli flakes, and a slice of lime if desired"
+      ],
+      "source": "WxY recipes"
     },
     {
       "name": "Chicken avocado salad",
