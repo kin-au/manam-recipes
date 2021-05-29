@@ -259,13 +259,41 @@
     {
       "name": "Chicken laksa",
       "description": "DESCRIPTION",
-      "cuisine": "CUISINE",
-      "type": ["TYPE"],
-      "servings": "PORTIONS",
-      "time": 0,
-      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
-      "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "cuisine": "Malaysian",
+      "type": ["Lunch", "Dinner"],
+      "servings": "2",
+      "time": 45,
+      "ingredients": [
+        "1 red pepper, cut into thin strips",
+        "1 spring onion, thinly sliced",
+        "1 clove garlic",
+        "200ml coconut milk",
+        "Coriander, roughly chopped",
+        "1 lime, zested and halved",
+        "30g (approx 1 heaped tbsp) Thai red curry paste",
+        "1 tsp chicken stock powder",
+        "20g (approx 1 heaped tbsp) peanut butter",
+        "400ml boiling water",
+        "300g chicken thigh, diced",
+        "QUANTITY egg noodles"
+      ],
+      "steps": [
+        "Heat some oil in a large saucepan on medium heat",
+        "Add 1 red pepper, 1 clove garlic, and 1/2 spring onion, stir and cook for 2 mins",
+        "While this is cooking, use a large bowl to soak QUANTITY egg noodles in boiling water",
+        "Add 1 heaped tbsp Thai red curry paste and stir for 1 min",
+        "Pour in 200ml coconut milk and mix until smooth",
+        "Add chicken stock powder with 400ml boiling water",
+        "Stir in 1 heaped tbsp peanut butter",
+        "At this point, add sugar, salt, pepper to taste",
+        "In a frying pan, heat some oil on medium heat, to cook 300g chicken thigh with the lime zest",
+        "While the chicken is cooking, add the noodles to the laksa. The noodles may soak up some of the coconutty liquid - you can add a splash of water to get it back to a soupy consistency",
+        "Once the chicken is done, add the chicken to the laksa",
+        "Remove the laksa from the heat and add juice from 1/2 lime",
+        "Add more lime juice salt or pepper to taste",
+        "Serve in big bowls, topped with the coriander and the remaining spring onions"
+      ],
+      "source": "HelloFresh"
     },
     {
       "name": "Cottage pie",
