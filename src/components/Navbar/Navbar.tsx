@@ -7,13 +7,23 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Divider from "@material-ui/core/Divider";
+import { makeStyles } from "@material-ui/core/styles";
 
 const Navbar = () => {
   const [open, setOpen] = React.useState<boolean>(false);
 
+  const useStyles = makeStyles({
+    button: {
+      width: "100vw",
+    },
+  });
+
+  const classes = useStyles();
+
   return (
     <div>
       <IconButton
+        className={classes.button}
         aria-label="open navbar"
         onClick={() => {
           setOpen(true);
