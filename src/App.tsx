@@ -1,7 +1,7 @@
 import * as SC from "./App.style";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
@@ -23,10 +23,6 @@ const App = () => {
         <SC.GlobalStyle />
         <SC.Container>
           <Header />
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/recipes">Recipes</Link>
-          <Link to="/contact">Contact</Link>
           <Switch>
             <Route path="/about">
               <About />

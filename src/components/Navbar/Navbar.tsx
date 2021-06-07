@@ -8,6 +8,7 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Divider from "@material-ui/core/Divider";
 import { makeStyles } from "@material-ui/core/styles";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [open, setOpen] = React.useState<boolean>(false);
@@ -45,18 +46,46 @@ const Navbar = () => {
           </Box>
           <Divider />
           <List>
-            <ListItem button onClick={() => {}}>
-              <ListItemText primary={"Home"} />
-            </ListItem>
-            <ListItem button onClick={() => {}}>
-              <ListItemText primary={"About"} />
-            </ListItem>
-            <ListItem button onClick={() => {}}>
-              <ListItemText primary={"Recipes"} />
-            </ListItem>
-            <ListItem button onClick={() => {}}>
-              <ListItemText primary={"Contact"} />
-            </ListItem>
+            <Link to="/">
+              <ListItem
+                button
+                onClick={() => {
+                  setOpen(false);
+                }}
+              >
+                <ListItemText primary={"Home"} />
+              </ListItem>
+            </Link>
+            <Link to="/about">
+              <ListItem
+                button
+                onClick={() => {
+                  setOpen(false);
+                }}
+              >
+                <ListItemText primary={"About"} />
+              </ListItem>
+            </Link>
+            <Link to="/recipes">
+              <ListItem
+                button
+                onClick={() => {
+                  setOpen(false);
+                }}
+              >
+                <ListItemText primary={"Recipes"} />
+              </ListItem>
+            </Link>
+            <Link to="/contact">
+              <ListItem
+                button
+                onClick={() => {
+                  setOpen(false);
+                }}
+              >
+                <ListItemText primary={"Contact"} />
+              </ListItem>
+            </Link>
           </List>
         </div>
       </SwipeableDrawer>
