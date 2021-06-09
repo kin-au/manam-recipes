@@ -1,6 +1,7 @@
 {
   "recipes": [
     {
+      "id": 0,
       "name": "NAME",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -9,9 +10,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Pad Kra Pao sauce",
       "description": "DESCRIPTION",
       "cuisine": "Thai",
@@ -27,9 +30,11 @@
         "3 tbsp sugar"
       ],
       "steps": ["Combine all ingredients in a bowl and mix well"],
-      "source": "WxY recipes"
+      "source": "WxY recipes",
+      "enabled": false
     },
     {
+      "id": 0,
       "name": "Pad Kra Pao (Thai basil dish)",
       "description": "DESCRIPTION",
       "cuisine": "Thai",
@@ -56,9 +61,11 @@
         "When beans are cooked, take the pan off heat and stir in the basil",
         "Serve the mince and beans with rice, and put your egg on top"
       ],
-      "source": "WxY recipes"
+      "source": "WxY recipes",
+      "enabled": false
     },
     {
+      "id": 0,
       "name": "Pizza dough",
       "description": "DESCRIPTION",
       "cuisine": "Italian",
@@ -80,9 +87,11 @@
         "Knead for 5 minutes",
         "Place in warm area for around 1 hour, or until doubled in size"
       ],
-      "source": "https://www.bbc.co.uk/food/recipes/pizzadoughbase_70980"
+      "source": "https://www.bbc.co.uk/food/recipes/pizzadoughbase_70980",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Pesto pasta",
       "description": "DESCRIPTION",
       "cuisine": "Italian",
@@ -112,9 +121,11 @@
         "Mix ingredients togethe and, as the spinach softens, add 75g pesto with 1/8 cup water with the pesto",
         "Season to taste with salt and pepper"
       ],
-      "source": "OG"
+      "source": "OG",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Kimchi pancake",
       "description": "DESCRIPTION",
       "cuisine": "Korean",
@@ -136,9 +147,11 @@
         "When nicely browned on one side, flip the pancake over",
         "Once fully cooked, cut into squares and serve"
       ],
-      "source": "https://mykoreankitchen.com/kimchi-pancakes-kimchi-buchimgae"
+      "source": "https://mykoreankitchen.com/kimchi-pancakes-kimchi-buchimgae",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Tteokbokki (spicy rice cakes)",
       "description": "DESCRIPTION",
       "cuisine": "Korean",
@@ -166,9 +179,11 @@
         "Simmer until thick, periodically scraping the base of the pan",
         "Serve with sesame oil, sesame seeds, and green onion"
       ],
-      "source": "https://mykoreankitchen.com/tteokbokki-spicy-rice-cakes/"
+      "source": "https://mykoreankitchen.com/tteokbokki-spicy-rice-cakes/",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Budae Jjigae (army stew)",
       "description": "DESCRIPTION",
       "cuisine": "Korean",
@@ -177,9 +192,11 @@
       "time": 30,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Mexican wrap",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -188,9 +205,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Pan-seared salmon with teriyaki sauce",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -199,9 +218,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Teriyaki sauce",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -210,9 +231,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Five spice roast chicken",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -221,9 +244,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Indian curry",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -232,9 +257,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Japanese curry rice",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -243,9 +270,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Lasagne",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -254,9 +283,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Chicken laksa",
       "description": "DESCRIPTION",
       "cuisine": "Malaysian",
@@ -293,9 +324,11 @@
         "Add more lime juice salt or pepper to taste",
         "Serve in big bowls, topped with the coriander and the remaining spring onions"
       ],
-      "source": "HelloFresh"
+      "source": "HelloFresh",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Cottage pie",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -304,9 +337,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Hainanese chicken",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -315,9 +350,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Ginger scallion chicken thigh leg drumstick",
       "description": "Succulent juicy chicken served with soya sauce infused with fragrant pan-fried spring onion and ginger",
       "cuisine": "Chinese",
@@ -350,9 +387,11 @@
         "Take the chicken legs from the pan and serve next to the rice. Evenly distribute the spring onion and ginger sauce mix over the chicken thigh.",
         "Serve and enjoy!"
       ],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Pork chop rice",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -361,9 +400,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Pad Thai sauce",
       "description": "DESCRIPTION",
       "cuisine": "Thai",
@@ -379,9 +420,11 @@
         "1 tbsp lime juice"
       ],
       "steps": ["Combine all ingredients in a bowl and mix well"],
-      "source": "WxY recipes"
+      "source": "WxY recipes",
+      "enabled": false
     },
     {
+      "id": 0,
       "name": "Pad Thai",
       "description": "DESCRIPTION",
       "cuisine": "Thai",
@@ -409,9 +452,11 @@
         "When chicken is mostly cooked, add in the sauce and cook to distribute evenly. The moisture from this should also soften the noodles",
         "Serve with peanuts and chilli flakes, and a slice of lime if desired"
       ],
-      "source": "WxY recipes"
+      "source": "WxY recipes",
+      "enabled": false
     },
     {
+      "id": 0,
       "name": "Chicken avocado salad",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -420,9 +465,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Cashew chicken",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -431,9 +478,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Fish amok",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -442,9 +491,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Chermoula spice blend",
       "description": "DESCRIPTION",
       "cuisine": "Morroccan",
@@ -465,9 +516,11 @@
         "Combine all of the ingredients",
         "Store in an airtight container, in a cool dark place for up to 1 year"
       ],
-      "source": "https://www.finecooking.com/recipe/charmoula-spice-blend"
+      "source": "https://www.finecooking.com/recipe/charmoula-spice-blend",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Middle Eastern style beef stew",
       "description": "DESCRIPTION",
       "cuisine": "Morroccan",
@@ -500,9 +553,11 @@
         "Fluff up the couscous with a fork and, if needed, add lemon juice to taste",
         "Serve the stew over the couscous in large bowls, add the courgettes, and top with 100g feta cheese (crumbled)"
       ],
-      "source": "HelloFresh"
+      "source": "HelloFresh",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Creamy lentil chicken thighs",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -511,9 +566,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Chinese BBQ pork",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -522,9 +579,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Ribeye steak",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -533,9 +592,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Thai green curry",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -544,9 +605,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "White-wine risotto",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -555,9 +618,11 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     },
     {
+      "id": 0,
       "name": "Black bean sweet potato stew",
       "description": "DESCRIPTION",
       "cuisine": "CUISINE",
@@ -566,7 +631,8 @@
       "time": 0,
       "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE"
+      "source": "SOURCE",
+      "enabled": true
     }
   ]
 }
