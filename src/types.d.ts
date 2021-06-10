@@ -11,6 +11,7 @@ declare module "styled-components" {
 }
 
 export interface Recipe {
+  id: number;
   name: string;
   description: string;
   cuisine: string;
@@ -20,6 +21,7 @@ export interface Recipe {
   ingredients: string[];
   steps: string[];
   source: string;
+  enabled: boolean;
 }
 
 export type RecipeData = any | Recipe[];
