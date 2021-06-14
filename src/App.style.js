@@ -16,4 +16,8 @@ const Container = styled.div`
   justify-content: space-between;
 `;
 
-export { GlobalStyle, Container };
+const Page = styled.div`
+  flex-grow: 1;
+`;
+
+export { GlobalStyle, Container, Page };

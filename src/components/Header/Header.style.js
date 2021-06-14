@@ -5,6 +5,7 @@ const Header = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1rem;
   height: 6rem;
   width: 100%;
   background-color: ${lightTheme.colors.background};

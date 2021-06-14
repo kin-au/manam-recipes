@@ -23,20 +23,22 @@ const App = () => {
         <SC.GlobalStyle />
         <SC.Container>
           <Header />
-          <Switch>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/recipes">
-              <Recipes />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
+          <SC.Page>
+            <Switch>
+              <Route path="/about">
+                <About />
+              </Route>
+              <Route path="/recipes">
+                <Recipes />
+              </Route>
+              <Route path="/contact">
+                <Contact />
+              </Route>
+              <Route path="/">
+                <Home />
+              </Route>
+            </Switch>
+          </SC.Page>
           <Footer />
         </SC.Container>
       </BrowserRouter>
