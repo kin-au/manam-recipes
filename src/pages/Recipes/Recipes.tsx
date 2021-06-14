@@ -1,10 +1,11 @@
 import React from "react";
+import * as SC from "./Recipes.style.js";
 
 const Recipes = () => {
   return (
-    <div>
+    <SC.Container>
       <p>Recipes page</p>
-    </div>
+    </SC.Container>
   );
 };
 
