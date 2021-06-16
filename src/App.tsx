@@ -29,7 +29,7 @@ const App = () => {
                 <About />
               </Route>
               <Route path="/recipes">
-                <Recipes />
+                <Recipes recipes={recipes} />
               </Route>
               <Route path="/contact">
                 <Contact />
