@@ -1,5 +1,5 @@
-import { RecipeData } from "../../types";
+import { AllRecipeData } from "../../types";
 
 export interface RecipesProps {
-  recipes: RecipeData;
+  recipes: AllRecipeData;
 }

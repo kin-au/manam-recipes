@@ -1,7 +1,8 @@
 import React from "react";
-import { Recipe } from "../../types.js";
-import * as SC from "./Recipes.style.js";
+import { RecipeData } from "../../types";
 import { RecipesProps } from "./types";
+import * as SC from "./Recipes.style.js";
+import Recipe from "../../components/Recipe/Recipe";
 
 const Recipes = (props: RecipesProps) => {
   const { recipes } = props;
@@ -12,8 +13,8 @@ const Recipes = (props: RecipesProps) => {
       {!recipes.length ? (
         <h1>"Loading..."</h1>
       ) : (
-        recipes.map((recipe: Recipe) => {
-          return <div>{recipe.name}</div>;
+        recipes.map((recipe: RecipeData) => {
+          return <Recipe recipe={recipe} />;
         })
       )}
     </SC.Container>

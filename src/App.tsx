@@ -1,6 +1,6 @@
 import React from "react";
 import * as SC from "./App.style";
-import { RecipeData } from "./types";
+import { AllRecipeData } from "./types";
 import Recipes from "./pages/Recipes/Recipes";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -11,7 +11,7 @@ import Contact from "./pages/Contact/Contact";
 import getRecipes from "./utils/getRecipes";
 
 const App = () => {
-  const [recipes, setRecipes] = React.useState<RecipeData>([]);
+  const [recipes, setRecipes] = React.useState<AllRecipeData>([]);
 
   React.useEffect(() => {
     getRecipes().then((recipes) => setRecipes(recipes));
