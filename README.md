@@ -15,3 +15,7 @@
 - As a user, I want to view any dependent sub-recipes (e.g. sauces) as a pop-up overlay
 - As a user, when viewing a sub-recipe on a pop-up overlay, I want to be able to click a link to view it as a standalone recipe
 - As a user, I want to be able to select between light and dark view
+
+##### Additional requirements
+
+- Enable straightforward updating and maintenance of recipes data by a relatively non-technically inclined individual, using a markup-like language
