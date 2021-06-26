@@ -2,7 +2,7 @@ import React from "react";
 import { RecipeData } from "../../types";
 import { RecipesProps } from "./types";
 import * as SC from "./Recipes.style.js";
-import Recipe from "../../components/Recipe/Recipe";
+import RecipeCard from "../../components/RecipeCard/RecipeCard";
 
 const Recipes = (props: RecipesProps) => {
   const { recipes } = props;
@@ -14,7 +14,7 @@ const Recipes = (props: RecipesProps) => {
         <h1>"Loading..."</h1>
       ) : (
         recipes.map((recipe: RecipeData) => {
-          return <Recipe recipe={recipe} />;
+          return <RecipeCard recipe={recipe} />;
         })
       )}
     </SC.Container>

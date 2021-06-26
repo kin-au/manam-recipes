@@ -1,5 +1,5 @@
 import { RecipeData } from "../../types";
 
-export interface RecipeProps {
+export interface RecipeCardProps {
   recipe: RecipeData;
 }
