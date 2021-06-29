@@ -1,6 +1,8 @@
 import React from "react";
+import { RecipeFinderProps } from "./types";
 
-const RecipeFinder = () => {
+const RecipeFinder = (props: RecipeFinderProps) => {
+  const { allRecipes } = props;
   return (
     <>
       <input type="text" placeholder="Search by recipe name"></input>

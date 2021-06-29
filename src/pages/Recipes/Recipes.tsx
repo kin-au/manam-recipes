@@ -5,15 +5,15 @@ import * as SC from "./Recipes.style.js";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
 
 const Recipes = (props: RecipesProps) => {
-  const { recipes } = props;
+  const { allRecipes } = props;
 
   return (
     <SC.Container>
       <p>Recipes page</p>
-      {!recipes.length ? (
+      {!allRecipes.length ? (
         <h1>"Loading..."</h1>
       ) : (
-        recipes.map((recipe: RecipeData) => {
+        allRecipes.map((recipe: RecipeData) => {
           return <RecipeCard recipe={recipe} />;
         })
       )}

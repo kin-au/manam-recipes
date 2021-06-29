@@ -1,6 +1,6 @@
 import { RecipeData } from "../types";
 
-const getRecipes = (): Promise<RecipeData> => {
+const getAllRecipes = (): Promise<RecipeData> => {
   return fetch("../../recipes.json", {
     headers: {
       "Content-Type": "application/json",
@@ -17,4 +17,4 @@ const getRecipes = (): Promise<RecipeData> => {
     });
 };
 
-export default getRecipes;
+export default getAllRecipes;

@@ -8,13 +8,15 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
-import getRecipes from "./utils/getRecipes";
+import getAllRecipes from "./utils/getAllRecipes";
 
 const App = () => {
-  const [recipes, setRecipes] = React.useState<AllRecipeData>([]);
+  const [allRecipes, setAllRecipes] = React.useState<AllRecipeData>([]);
 
   React.useEffect(() => {
-    getRecipes().then((recipes) => setRecipes(recipes));
+    getAllRecipes().then((allRecipes: AllRecipeData) =>
+      setAllRecipes(allRecipes)
+    );
   }, []);
 
   return (
@@ -22,14 +24,14 @@ const App = () => {
       <BrowserRouter>
         <SC.GlobalStyle />
         <SC.Container>
-          <Header />
+          <Header allRecipes={allRecipes} />
           <SC.Page>
             <Switch>
               <Route path="/about">
                 <About />
               </Route>
               <Route path="/recipes">
-                <Recipes recipes={recipes} />
+                <Recipes allRecipes={allRecipes} />
               </Route>
               <Route path="/contact">
                 <Contact />
