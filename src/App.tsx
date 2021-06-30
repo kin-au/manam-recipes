@@ -12,6 +12,7 @@ import getAllRecipes from "./utils/getAllRecipes";
 
 const App = () => {
   const [allRecipes, setAllRecipes] = React.useState<AllRecipeData>([]);
+  const [showRecipes, setShowRecipes] = React.useState<AllRecipeData>([]);
 
   React.useEffect(() => {
     getAllRecipes().then((allRecipes: AllRecipeData) =>
@@ -24,7 +25,7 @@ const App = () => {
       <BrowserRouter>
         <SC.GlobalStyle />
         <SC.Container>
-          <Header allRecipes={allRecipes} />
+          <Header allRecipes={allRecipes} setShowRecipes={setShowRecipes} />
           <SC.Page>
             <Switch>
               <Route path="/about">
