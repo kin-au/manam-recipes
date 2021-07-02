@@ -1,25 +1,37 @@
 import React from "react";
 import { RecipeFinderProps } from "./types";
-import searchRecipesByName from "../../utils/searchRecipesByName";
+// import searchRecipesByName from "../../utils/searchRecipesByName";
 
 const RecipeFinder = (props: RecipeFinderProps) => {
   const { allRecipes, setShowRecipes } = props;
-  const [searchText, setSearchText] = React.useState("");
-  const searchRecipes = (value: string) => {
-    setSearchText(value);
-    setShowRecipes(searchRecipesByName(allRecipes, value));
-  };
+  const [nameSearchText, setNameSearchText] = React.useState("");
+  const [cuisineSearchText, setCuisineSearchText] = React.useState("");
+
+  React.useEffect(() => {
+    console.log("i search!");
+    // create search fn in utils
+    // pass allRecipes, nameSearchText, cuisineSearchText, etc
+    // then setShowRecipes()
+  }, [nameSearchText, cuisineSearchText]);
 
   return (
     <>
-      <label htmlFor="searchRecipes">Search</label>
+      <label htmlFor="nameSearch">Search recipes</label>
       <input
-        id="searchRecipes"
+        id="nameSearch"
         type="search"
         placeholder="Find a recipe by name"
-        value={searchText}
-        onChange={(event) => searchRecipes(event.target.value)}
-      ></input>
+        value={nameSearchText}
+        onChange={(event) => setNameSearchText(event.target.value)}
+      />
+      <label htmlFor="cuisineSearch">Search cuisines</label>
+      <input
+        id="cuisineSearch"
+        type="search"
+        placeholder="Search by cuisine name"
+        value={cuisineSearchText}
+        onChange={(event) => setCuisineSearchText(event.target.value)}
+      />
     </>
   );
 };
