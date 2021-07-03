@@ -1,6 +1,6 @@
 import React from "react";
+import allSearch from "../../utils/allSearch";
 import { RecipeFinderProps } from "./types";
-// import searchRecipesByName from "../../utils/searchRecipesByName";
 
 const RecipeFinder = (props: RecipeFinderProps) => {
   const { allRecipes, setShowRecipes } = props;
@@ -8,11 +8,8 @@ const RecipeFinder = (props: RecipeFinderProps) => {
   const [cuisineSearchText, setCuisineSearchText] = React.useState("");
 
   React.useEffect(() => {
-    console.log("i search!");
-    // create search fn in utils
-    // pass allRecipes, nameSearchText, cuisineSearchText, etc
-    // then setShowRecipes()
-  }, [nameSearchText, cuisineSearchText]);
+    setShowRecipes(allSearch(allRecipes, nameSearchText, cuisineSearchText));
+  }, [setShowRecipes, allRecipes, nameSearchText, cuisineSearchText]);
 
   return (
     <>
