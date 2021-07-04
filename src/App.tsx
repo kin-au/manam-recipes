@@ -9,15 +9,16 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
 import getAllRecipes from "./utils/getAllRecipes";
+import enabledFilter from "./utils/enabledFilter";
 
 const App = () => {
   const [allRecipes, setAllRecipes] = React.useState<AllRecipeData>([]);
   const [showRecipes, setShowRecipes] = React.useState<AllRecipeData>([]);
 
   React.useEffect(() => {
-    getAllRecipes().then((allRecipes: AllRecipeData) =>
-      setAllRecipes(allRecipes)
-    );
+    getAllRecipes()
+      .then((recipeData: AllRecipeData) => enabledFilter(recipeData))
+      .then((enabledRecipes: AllRecipeData) => setAllRecipes(enabledRecipes));
   }, []);
 
   return (
