@@ -5,9 +5,7 @@ const cuisineSearch = (
   cuisineSearchText: string
 ): AllRecipeData => {
   return recipeList.filter((recipe: RecipeData) => {
-    return recipe.cuisine
-      .toLowerCase()
-      .includes(cuisineSearchText.toLowerCase());
+    return recipe.cuisine === cuisineSearchText;
   });
 };
 

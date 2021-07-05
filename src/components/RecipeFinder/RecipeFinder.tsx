@@ -1,5 +1,6 @@
 import React from "react";
 import allSearch from "../../utils/allSearch";
+import cuisineList from "../../utils/cuisineList";
 import { RecipeFinderProps } from "./types";
 
 const RecipeFinder = (props: RecipeFinderProps) => {
@@ -22,13 +23,16 @@ const RecipeFinder = (props: RecipeFinderProps) => {
         onChange={(event) => setNameSearchText(event.target.value)}
       />
       <label htmlFor="cuisineSearch">Search cuisines</label>
-      <input
+      <select
         id="cuisineSearch"
-        type="search"
-        placeholder="Search by cuisine name"
         value={cuisineSearchText}
         onChange={(event) => setCuisineSearchText(event.target.value)}
-      />
+      >
+        <option value="">All cuisines</option>
+        {cuisineList(allRecipes).map((cuisine) => {
+          return <option value={cuisine}>{cuisine}</option>;
+        })}
+      </select>
     </>
   );
 };
