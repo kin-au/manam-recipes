@@ -1,15 +1,17 @@
 import { AllRecipeData } from "../types";
 import cuisineSearch from "./cuisineSearch";
 import nameSearch from "./nameSearch";
+import typeSearch from "./typeSearch";
 
 const allSearch = (
   allRecipes: AllRecipeData,
   nameSearchText: string,
-  cuisineSearchText: string
+  cuisineSearchText: string,
+  typeSearchText: string
 ): AllRecipeData => {
-  return cuisineSearch(
-    nameSearch(allRecipes, nameSearchText),
-    cuisineSearchText
+  return typeSearch(
+    cuisineSearch(nameSearch(allRecipes, nameSearchText), cuisineSearchText),
+    typeSearchText
   );
 };
 
