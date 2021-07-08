@@ -4,9 +4,13 @@ const cuisineSearch = (
   recipeList: AllRecipeData,
   cuisineSearchText: string
 ): AllRecipeData => {
-  return recipeList.filter((recipe: RecipeData) => {
-    return recipe.cuisine === cuisineSearchText;
-  });
+  if (cuisineSearchText) {
+    return recipeList.filter((recipe: RecipeData) => {
+      return recipe.cuisine === cuisineSearchText;
+    });
+  } else {
+    return recipeList;
+  }
 };
 
 export default cuisineSearch;
