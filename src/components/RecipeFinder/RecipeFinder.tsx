@@ -79,6 +79,15 @@ const RecipeFinder = (props: RecipeFinderProps) => {
         <option value="Time">Time</option>
         <option value="Number of ingredients">Number of ingredients</option>
       </select>
+      <label htmlFor="sortOrder">Sort by</label>
+      <select
+        id="sortOrder"
+        value={sortOrder}
+        onChange={(event) => setSortOrder(event.target.value as SortOrder)}
+      >
+        <option value="Ascending">Ascending</option>
+        <option value="Descending">Descending</option>
+      </select>
       <button type="button" onClick={() => resetSearch()}>
         Reset
       </button>

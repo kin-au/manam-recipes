@@ -6,15 +6,20 @@ const sortType = (
   type: SortType,
   order: SortOrder
 ): AllRecipeData => {
-  // const types = {
-  //   Alphabetical: "Name",
-  //   Time: "Time",
-  //   "Number of ingredients": "Ingredients",
-  // };
-  // const sortedList: AllRecipeData = [];
-  return recipeList.sort((a: RecipeData, b: RecipeData) =>
-    a["name"].localeCompare(b["name"])
+  let sortedList: AllRecipeData = recipeList.sort(
+    (a: RecipeData, b: RecipeData): AllRecipeData => {
+      if (type === "Alphabetical") {
+        return a.name.localeCompare(b.name);
+      } else if (type === "Time") {
+        return a.time - b.time;
+      } else if (type === "Number of ingredients") {
+        return a.ingredients.length - b.ingredients.length;
+      } else {
+        return recipeList;
+      }
+    }
   );
+  return order === "Ascending" ? sortedList : sortedList.reverse();
 };
 
 export default sortType;
