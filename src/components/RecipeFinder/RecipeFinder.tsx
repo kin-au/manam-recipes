@@ -35,6 +35,8 @@ const RecipeFinder = (props: RecipeFinderProps) => {
     setNameSearchText("");
     setCuisineSearchText("");
     setTypeSearchText("");
+    setSortType("Alphabetical");
+    setSortOrder("Ascending");
   };
 
   return (
