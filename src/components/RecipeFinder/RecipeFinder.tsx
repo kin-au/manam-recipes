@@ -76,10 +76,10 @@ const RecipeFinder = (props: RecipeFinderProps) => {
         onChange={(event) => setSortType(event.target.value as SortType)}
       >
         <option value="Alphabetical">Alphabetical</option>
-        <option value="Time">Time</option>
+        <option value="Prep & cook time">Prep & cook time</option>
         <option value="Number of ingredients">Number of ingredients</option>
       </select>
-      <label htmlFor="sortOrder">Sort by</label>
+      <label htmlFor="sortOrder">Sort direction</label>
       <select
         id="sortOrder"
         value={sortOrder}

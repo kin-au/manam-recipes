@@ -1,5 +1,4 @@
 import React from "react";
-// import { RecipeData } from "../../types";
 import { RecipeCardProps } from "./types";
 import * as SC from "./RecipeCard.style.js";
 

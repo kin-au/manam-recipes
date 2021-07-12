@@ -5,6 +5,9 @@ export interface RecipeFinderProps {
   setShowRecipes: React.Dispatch<any>;
 }
 
-export type SortType = "Alphabetical" | "Time" | "Number of ingredients";
+export type SortType =
+  | "Alphabetical"
+  | "Prep & cook time"
+  | "Number of ingredients";
 
 export type SortOrder = "Ascending" | "Descending";

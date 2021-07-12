@@ -10,7 +10,7 @@ const sortType = (
     (a: RecipeData, b: RecipeData): AllRecipeData => {
       if (type === "Alphabetical") {
         return a.name.localeCompare(b.name);
-      } else if (type === "Time") {
+      } else if (type === "Prep & cook time") {
         return a.time - b.time;
       } else if (type === "Number of ingredients") {
         return a.ingredients.length - b.ingredients.length;
