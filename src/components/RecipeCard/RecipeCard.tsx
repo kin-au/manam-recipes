@@ -5,7 +5,7 @@ import * as SC from "./RecipeCard.style.js";
 const RecipeCard = (props: RecipeCardProps) => {
   const { recipe } = props;
   return (
-    <SC.RecipeCard>
+    <SC.RecipeCard key={recipe.id}>
       <div>{recipe.name}</div>
       <div>{recipe.cuisine}</div>
     </SC.RecipeCard>
