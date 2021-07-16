@@ -6,7 +6,7 @@ const RecipeCard = (props: RecipeCardProps) => {
   const { recipe } = props;
   return (
     <SC.RecipeCard key={recipe.id}>
-      <div>{recipe.name}</div>
+      <header>{recipe.name}</header>
       <div>{recipe.cuisine}</div>
     </SC.RecipeCard>
   );

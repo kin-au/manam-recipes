@@ -13,7 +13,7 @@ const Header = styled.header`
   width: 100%;
   background-color: ${lightTheme.colors.background};
   color: ${lightTheme.colors.primary};
-  box-shadow: 0 0.125rem 0.5rem #403d39;
+  box-shadow: 0 0.125rem 0.5rem #403d3959;
 
   h1 {
     font-size: 2rem;
