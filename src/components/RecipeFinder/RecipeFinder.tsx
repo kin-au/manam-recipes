@@ -41,7 +41,7 @@ const RecipeFinder = (props: RecipeFinderProps) => {
   };
 
   return (
-    <>
+    <SC.RecipeFinder>
       <SC.SearchContainer>
         <label htmlFor="nameSearch">Search recipes</label>
         <input
@@ -94,11 +94,11 @@ const RecipeFinder = (props: RecipeFinderProps) => {
           <option value="Ascending">Ascending</option>
           <option value="Descending">Descending</option>
         </select>
-        <button type="button" onClick={() => resetSearch()}>
-          Reset
-        </button>
       </SC.SortContainer>
-    </>
+      <button type="button" onClick={() => resetSearch()}>
+        Reset
+      </button>
+    </SC.RecipeFinder>
   );
 };
 
