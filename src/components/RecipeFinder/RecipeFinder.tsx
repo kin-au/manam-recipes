@@ -46,6 +46,7 @@ const RecipeFinder = (props: RecipeFinderProps) => {
         <label htmlFor="nameSearch">Search recipes</label>
         <input
           id="nameSearch"
+          className="inputField"
           type="search"
           placeholder="Find a recipe by name"
           value={nameSearchText}
@@ -54,6 +55,7 @@ const RecipeFinder = (props: RecipeFinderProps) => {
         <label htmlFor="cuisineSearch">Search cuisines</label>
         <select
           id="cuisineSearch"
+          className="inputField"
           value={cuisineSearchText}
           onChange={(event) => setCuisineSearchText(event.target.value)}
         >
@@ -65,6 +67,7 @@ const RecipeFinder = (props: RecipeFinderProps) => {
         <label htmlFor="typeSearch">Search types</label>
         <select
           id="typeSearch"
+          className="inputField"
           value={typeSearchText}
           onChange={(event) => setTypeSearchText(event.target.value)}
         >
@@ -78,6 +81,7 @@ const RecipeFinder = (props: RecipeFinderProps) => {
         <label htmlFor="sortType">Sort by</label>
         <select
           id="sortType"
+          className="inputField"
           value={sortType}
           onChange={(event) => setSortType(event.target.value as SortType)}
         >
@@ -88,6 +92,7 @@ const RecipeFinder = (props: RecipeFinderProps) => {
         <label htmlFor="sortOrder">Sort direction</label>
         <select
           id="sortOrder"
+          className="inputField"
           value={sortOrder}
           onChange={(event) => setSortOrder(event.target.value as SortOrder)}
         >
@@ -96,7 +101,7 @@ const RecipeFinder = (props: RecipeFinderProps) => {
         </select>
       </SC.SortContainer>
       <button type="button" onClick={() => resetSearch()}>
-        Reset
+        Reset all
       </button>
     </SC.RecipeFinder>
   );

@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 const RecipeFinder = styled.div`
   display: flex;
+
+  .inputField {
+    height: 1.5rem;
+  }
 `;
 
 const SearchContainer = styled.div`
