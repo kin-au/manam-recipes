@@ -5,7 +5,7 @@ import * as SC from "./Recipes.style.js";
 import RecipeCard from "../../components/RecipeCard/RecipeCard";
 
 const Recipes = (props: RecipesProps) => {
-  const { showRecipes } = props;
+  const { showRecipes, setSelectedRecipe } = props;
 
   return (
     <SC.Container>
@@ -13,7 +13,9 @@ const Recipes = (props: RecipesProps) => {
         <h2>No recipes found :(</h2>
       ) : (
         showRecipes.map((recipe: RecipeData) => {
-          return <RecipeCard recipe={recipe} />;
+          return (
+            <RecipeCard recipe={recipe} setSelectedRecipe={setSelectedRecipe} />
+          );
         })
       )}
     </SC.Container>
