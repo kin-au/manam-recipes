@@ -17,12 +17,12 @@ const RecipeCard = (props: RecipeCardProps) => {
           {recipe.cuisine}
         </div>
         <div>
-          <span className="subheader">Prep & cook time: </span>
-          {recipe.time}mins
-        </div>
-        <div>
           <span className="subheader">Type: </span>
           {recipe.type}
+        </div>
+        <div>
+          <span className="subheader">Prep & cook time: </span>
+          {recipe.time}mins
         </div>
       </SC.RecipeCard>
     </Link>
