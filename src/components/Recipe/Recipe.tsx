@@ -3,6 +3,16 @@ import { RecipeProps } from "./types";
 
 const Recipe = (props: RecipeProps) => {
   const { recipe } = props;
+  const recipeSteps = (steps: string[]) => {
+    return steps.map((step: string, index: number) => {
+      return (
+        <div>
+          {++index}) {step}
+        </div>
+      );
+    });
+  };
+
   return (
     <>
       <header>{recipe.name}</header>
@@ -33,13 +43,7 @@ const Recipe = (props: RecipeProps) => {
       </div>
       <div>
         <span className="subheader">Steps: </span>
-        {recipe.steps.map((step: string, index: number) => {
-          return (
-            <div>
-              {++index}) {step}
-            </div>
-          );
-        })}
+        {recipeSteps(recipe.steps)}
       </div>
     </>
   );
