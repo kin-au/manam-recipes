@@ -19,3 +19,10 @@
 ##### Additional requirements
 
 - Enable straightforward updating and maintenance of recipes data by a relatively non-technically inclined individual, using a markup-like language
+- Markup as follows:
+  - `###`: start pop-up overlay, display text
+  - `***`: start pop-up overlay url link (between `###` and `+++`)
+  - `^^^`: end pop-up overlay url link (within `###` and `+++`)
+  - `+++`: end pop-up overlay
+  - `%%%`: start bold font
+  - `@@@`: end bold font
