@@ -26,3 +26,7 @@
   - `+++`: end pop-up overlay
   - `%%%`: start bold font
   - `@@@`: end bold font
+  - `$$$`: start pop-up overlay, display text
+  - `£££`: start pop-up overlay url link (between `###` and `+++`)
+  - `###`: end pop-up overlay url link (within `###` and `+++`)
+  - `^^^`: end pop-up overlay
