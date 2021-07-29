@@ -1,20 +1,40 @@
 import React from "react";
 import { RecipeProps } from "./types";
+import DOMPurify from "dompurify";
 
 const Recipe = (props: RecipeProps) => {
   const { recipe } = props;
 
   const ingredientsList = (ingredients: string[]) => {
     return ingredients.map((ingredient: string) => {
-      return <li>{ingredient}</li>;
+      const boldOpenRegex = /%%%/gi;
+      ingredient = ingredient.replace(boldOpenRegex, "<strong>");
+      const boldCloseRegex = /@@@/gi;
+      ingredient = ingredient.replace(boldCloseRegex, "</strong>");
+      return (
+        <li
+          dangerouslySetInnerHTML={{
+            __html: DOMPurify.sanitize(ingredient),
+          }}
+        ></li>
+      );
     });
   };
 
   const recipeSteps = (steps: string[]) => {
     return steps.map((step: string, index: number) => {
+      const boldOpenRegex = /%%%/gi;
+      step = step.replace(boldOpenRegex, "<strong>");
+      const boldCloseRegex = /@@@/gi;
+      step = step.replace(boldCloseRegex, "</strong>");
       return (
         <div>
-          {++index}) {step}
+          <span>{++index}) </span>
+          <span
+            dangerouslySetInnerHTML={{
+              __html: DOMPurify.sanitize(step),
+            }}
+          ></span>
         </div>
       );
     });
