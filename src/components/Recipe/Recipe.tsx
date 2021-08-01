@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { RecipeProps } from "./types";
 import DOMPurify from "dompurify";
 
@@ -42,6 +43,7 @@ const Recipe = (props: RecipeProps) => {
 
   return (
     <>
+      <Link to={"/recipes"}>Back to search results</Link>
       <header>{recipe.name}</header>
       <div>{recipe.description}</div>
       <div>
