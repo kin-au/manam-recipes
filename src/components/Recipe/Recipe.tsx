@@ -2,22 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { RecipeProps } from "./types";
 import DOMPurify from "dompurify";
+import {
+  REGEX_BOLD_OPEN,
+  REGEX_BOLD_CLOSE,
+} from "../../utils/consts";
 
 const Recipe = (props: RecipeProps) => {
   const { recipe } = props;
 
   const ingredientsList = (ingredients: string[]) => {
     return ingredients.map((ingredient: string) => {
-      const boldOpenRegex = /%%%/gi;
-      ingredient = ingredient.replace(boldOpenRegex, "<strong>");
-      const boldCloseRegex = /@@@/gi;
-      ingredient = ingredient.replace(boldCloseRegex, "</strong>");
+      if (ingredient.match(REGEX_BOLD_OPEN)) {
+        ingredient = ingredient.replace(REGEX_BOLD_OPEN, "<strong>");
+        ingredient = ingredient.replace(REGEX_BOLD_CLOSE, "</strong>");
+      }
       return (
-        <li
-          dangerouslySetInnerHTML={{
-            __html: DOMPurify.sanitize(ingredient),
-          }}
-        ></li>
+        <>
+          <li
+            dangerouslySetInnerHTML={{
+              __html: DOMPurify.sanitize(ingredient),
+            }}
+          ></li>
+        </>
       );
     });
   };
