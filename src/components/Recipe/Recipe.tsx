@@ -30,10 +30,10 @@ const Recipe = (props: RecipeProps) => {
 
   const recipeSteps = (steps: string[]) => {
     return steps.map((step: string, index: number) => {
-      const boldOpenRegex = /%%%/gi;
-      step = step.replace(boldOpenRegex, "<strong>");
-      const boldCloseRegex = /@@@/gi;
-      step = step.replace(boldCloseRegex, "</strong>");
+      if (step.match(REGEX_BOLD_OPEN)) {
+        step = step.replace(REGEX_BOLD_OPEN, "<strong>");
+        step = step.replace(REGEX_BOLD_CLOSE, "</strong>");
+      }
       return (
         <div>
           <span>{++index}) </span>
