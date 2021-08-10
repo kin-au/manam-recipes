@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const RecipeCard = styled.div`
   margin: 1.25rem;
@@ -15,4 +16,9 @@ const RecipeCard = styled.div`
   }
 `;
 
-export { RecipeCard };
+const StyledLink = styled(Link)`
+  color: black;
+  text-decoration: none;
+`;
+
+export { RecipeCard, StyledLink };

@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { RecipeCardProps } from "./types";
 import * as SC from "./RecipeCard.style.js";
 
 const RecipeCard = (props: RecipeCardProps) => {
   const { recipe, setSelectedRecipe } = props;
   return (
-    <Link
+    <SC.StyledLink
       to={`/recipes/${recipe.url}`}
       onClick={() => setSelectedRecipe(recipe)}
     >
@@ -25,7 +24,7 @@ const RecipeCard = (props: RecipeCardProps) => {
           {recipe.time}mins
         </div>
       </SC.RecipeCard>
-    </Link>
+    </SC.StyledLink>
   );
 };
 
