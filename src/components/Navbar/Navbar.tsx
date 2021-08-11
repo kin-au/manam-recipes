@@ -1,37 +1,27 @@
 import React from "react";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
 import Box from "@material-ui/core/Box";
-import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import Divider from "@material-ui/core/Divider";
-import { makeStyles } from "@material-ui/core/styles";
 import { Link } from "react-router-dom";
+import * as SC from "./NavBar.style.js";
 
 const Navbar = () => {
   const [open, setOpen] = React.useState<boolean>(false);
 
-  const useStyles = makeStyles({
-    button: {
-      width: "100vw",
-    },
-  });
-
-  const classes = useStyles();
-
   return (
     <div>
-      <IconButton
-        className={classes.button}
+      <SC.StyledIconButton
         aria-label="open navbar"
         onClick={() => {
           setOpen(true);
         }}
       >
         <MenuIcon />
-      </IconButton>
+      </SC.StyledIconButton>
       <SwipeableDrawer
         anchor="top"
         open={open}
