@@ -4,7 +4,6 @@ import Box from "@material-ui/core/Box";
 import MenuIcon from "@material-ui/icons/Menu";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
 import Divider from "@material-ui/core/Divider";
 import { Link } from "react-router-dom";
 import * as SC from "./NavBar.style.js";
@@ -30,7 +29,7 @@ const Navbar = () => {
         }}
         onOpen={() => {}}
       >
-        <div>
+        <SC.MenuContainer>
           <Box textAlign="center" p={6}>
             Menu
           </Box>
@@ -43,7 +42,7 @@ const Navbar = () => {
                   setOpen(false);
                 }}
               >
-                <ListItemText primary={"Home"} />
+                <SC.StyledListItemText primary={"Home"} />
               </ListItem>
             </Link>
             <Link to="/about">
@@ -53,7 +52,7 @@ const Navbar = () => {
                   setOpen(false);
                 }}
               >
-                <ListItemText primary={"About"} />
+                <SC.StyledListItemText primary={"About"} />
               </ListItem>
             </Link>
             <Link to="/recipes">
@@ -63,7 +62,7 @@ const Navbar = () => {
                   setOpen(false);
                 }}
               >
-                <ListItemText primary={"Recipes"} />
+                <SC.StyledListItemText primary={"Recipes"} />
               </ListItem>
             </Link>
             <Link to="/contact">
@@ -73,11 +72,11 @@ const Navbar = () => {
                   setOpen(false);
                 }}
               >
-                <ListItemText primary={"Contact"} />
+                <SC.StyledListItemText primary={"Contact"} />
               </ListItem>
             </Link>
           </List>
-        </div>
+        </SC.MenuContainer>
       </SwipeableDrawer>
     </div>
   );
