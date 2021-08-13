@@ -9,8 +9,7 @@ const Header = styled.header`
   flex-direction: column;
   align-items: center;
   margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  width: 100%;
+  padding: 1rem;
   background-color: ${lightTheme.colors.background};
   color: ${lightTheme.colors.primary};
   box-shadow: 0 0.125rem 0.5rem #403d3959;

@@ -10,7 +10,7 @@ const Header = (props: HeaderProps) => {
   const showingRecipes = useLocation().pathname === "/recipes";
   return (
     <SC.Header>
-      <h1>Manam recipes</h1>
+      <h1>Manam Recipes</h1>
       <Navbar />
       {!showingRecipes ? null : (
         <RecipeFinder allRecipes={allRecipes} setShowRecipes={setShowRecipes} />
