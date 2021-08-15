@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import * as SC from "./Recipe.style.js";
 import { RecipeProps } from "./types";
 import DOMPurify from "dompurify";
 import {
@@ -48,35 +49,37 @@ const Recipe = (props: RecipeProps) => {
   };
 
   return (
-    <>
+    <SC.Recipe>
       <Link to={"/recipes"}>Back to search results</Link>
-      <header>{recipe.name}</header>
-      <div>{recipe.description}</div>
+      <SC.Header>
+        <h1>{recipe.name}</h1>
+        <div>{recipe.description}</div>
+      </SC.Header>
       <div>
-        <span className="subheader">Cuisine: </span>
+        <SC.Subheader className="subheader">Cuisine: </SC.Subheader>
         {recipe.cuisine}
       </div>
       <div>
-        <span className="subheader">Type: </span>
+        <SC.Subheader className="subheader">Type: </SC.Subheader>
         {recipe.type}
       </div>
       <div>
-        <span className="subheader">Servings: </span>
+        <SC.Subheader className="subheader">Servings: </SC.Subheader>
         {recipe.servings}
       </div>
       <div>
-        <span className="subheader">Prep & cook time: </span>
+        <SC.Subheader className="subheader">Prep & cook time: </SC.Subheader>
         {recipe.time}mins
       </div>
       <div>
-        <span className="subheader">Ingredients: </span>
+        <SC.Subheader className="subheader">Ingredients: </SC.Subheader>
         <ul>{ingredientsList(recipe.ingredients)}</ul>
       </div>
       <div>
-        <span className="subheader">Steps: </span>
+        <SC.Subheader className="subheader">Steps: </SC.Subheader>
         {recipeSteps(recipe.steps)}
       </div>
-    </>
+    </SC.Recipe>
   );
 };
 
