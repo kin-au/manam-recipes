@@ -5,6 +5,7 @@ const RecipeCard = styled.div`
   margin: 1.25rem;
   padding: 0.5rem;
   box-shadow: 0.125rem 0.125rem 0.5rem #403d3959;
+  background-color: #fffcf2;
 
   header {
     font-weight: 500;

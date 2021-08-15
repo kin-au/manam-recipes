@@ -8,6 +8,7 @@ import { RecipeFinderProps, SortOrder, SortType } from "./types";
 
 const RecipeFinder = (props: RecipeFinderProps) => {
   const { allRecipes, setShowRecipes } = props;
+
   const [nameSearchText, setNameSearchText] = React.useState("");
   const [cuisineSearchText, setCuisineSearchText] = React.useState("");
   const [typeSearchText, setTypeSearchText] = React.useState("");
