@@ -50,7 +50,9 @@ const Recipe = (props: RecipeProps) => {
 
   return (
     <SC.Recipe>
-      <Link to={"/recipes"}>Back to search results</Link>
+      <SC.BackButton>
+        <Link to={"/recipes"}>Back to Search</Link>
+      </SC.BackButton>
       <SC.Header>
         <h1>{recipe.name}</h1>
         <div>{recipe.description}</div>
