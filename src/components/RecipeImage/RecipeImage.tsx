@@ -1,5 +1,6 @@
 import React from "react";
 import { RecipeImageProps } from "./types";
+import * as SC from "./RecipeImage.style.js";
 
 const RecipeImage = (props: RecipeImageProps) => {
   const { recipeName, recipeImage } = props;
@@ -12,13 +13,13 @@ const RecipeImage = (props: RecipeImageProps) => {
   };
 
   return (
-    <div>
+    <SC.Container>
       {recipeImage ? (
         <img src={recipeImage} alt="dish" />
       ) : (
         <div>{initials(recipeName)}</div>
       )}
-    </div>
+    </SC.Container>
   );
 };
 
