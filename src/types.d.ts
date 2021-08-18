@@ -17,6 +17,7 @@ export type RecipeData =
       url: string;
       name: string;
       description: string;
+      image: string;
       cuisine: string;
       type: string;
       servings: string;
