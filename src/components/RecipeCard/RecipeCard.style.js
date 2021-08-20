@@ -6,6 +6,13 @@ const RecipeCard = styled.div`
   padding: 0.5rem;
   box-shadow: 0.125rem 0.125rem 0.5rem #403d3959;
   background-color: #fffcf2;
+  display: flex;
+  justify-content: space-between;
+`;
+
+const RecipeText = styled.div`
+  display: flex;
+  flex-direction: column;
 
   header {
     font-weight: 500;
@@ -22,4 +29,4 @@ const StyledLink = styled(Link)`
   text-decoration: none;
 `;
 
-export { RecipeCard, StyledLink };
+export { RecipeCard, RecipeText, StyledLink };
