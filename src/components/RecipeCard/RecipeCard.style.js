@@ -8,6 +8,7 @@ const RecipeCard = styled.div`
   background-color: #fffcf2;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 `;
 
 const RecipeText = styled.div`

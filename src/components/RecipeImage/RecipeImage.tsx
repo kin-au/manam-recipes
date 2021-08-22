@@ -15,9 +15,9 @@ const RecipeImage = (props: RecipeImageProps) => {
   return (
     <SC.Container>
       {recipeImage ? (
-        <img src={recipeImage} alt="dish" />
+        <SC.Image src={recipeImage} alt="dish" />
       ) : (
-        <div>{initials(recipeName)}</div>
+        <SC.Initials>{initials(recipeName)}</SC.Initials>
       )}
     </SC.Container>
   );
