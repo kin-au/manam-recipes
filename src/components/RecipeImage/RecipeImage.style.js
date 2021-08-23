@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Container = styled.div`
-  height: 4rem;
-  width: 4rem;
+  height: 5rem;
+  width: 5rem;
   border-radius: 2px;
   background: linear-gradient(#e9e9e9, #e4e4e4);
   display: flex;
@@ -17,7 +17,7 @@ const Image = styled.img`
 `;
 
 const Initials = styled.div`
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   color: #7a746c;
 `;
 

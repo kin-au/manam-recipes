@@ -13,15 +13,15 @@ const RecipeCard = (props: RecipeCardProps) => {
       <SC.RecipeCard key={recipe.id}>
         <SC.RecipeText>
           <header>{recipe.name}</header>
-          <div>
+          <div className="recipeDetail">
             <span className="subheader">Cuisine: </span>
             {recipe.cuisine}
           </div>
-          <div>
+          <div className="recipeDetail">
             <span className="subheader">Type: </span>
             {recipe.type}
           </div>
-          <div>
+          <div className="recipeDetail">
             <span className="subheader">Prep & cook time: </span>
             {recipe.time}mins
           </div>

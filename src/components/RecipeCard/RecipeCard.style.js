@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const RecipeCard = styled.div`
   margin: 1.25rem;
-  padding: 0.5rem;
+  padding: 0.75rem;
   box-shadow: 0.125rem 0.125rem 0.5rem #403d3959;
   background-color: #fffcf2;
   display: flex;
@@ -18,6 +18,11 @@ const RecipeText = styled.div`
   header {
     font-weight: 500;
     font-size: 1.25rem;
+    padding: 0.25rem;
+  }
+
+  .recipeDetail {
+    padding: 0.25rem;
   }
 
   .subheader {
