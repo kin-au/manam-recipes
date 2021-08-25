@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Recipe = styled.div`
-  margin: 0 1rem;
+  /* margin: 0 1rem; */
 `;
 
 const BackButton = styled.div`

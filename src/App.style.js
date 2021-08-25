@@ -18,6 +18,7 @@ const Container = styled.div`
 
 const Page = styled.div`
   flex-grow: 1;
+  margin: 0 1.25rem;
 `;
 
 export { GlobalStyle, Container, Page };
