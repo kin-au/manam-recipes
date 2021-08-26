@@ -36,14 +36,11 @@ const Recipe = (props: RecipeProps) => {
         step = step.replace(REGEX_BOLD_CLOSE, "</strong>");
       }
       return (
-        <div>
-          <span>{++index}) </span>
-          <span
-            dangerouslySetInnerHTML={{
-              __html: DOMPurify.sanitize(step),
-            }}
-          ></span>
-        </div>
+        <li
+          dangerouslySetInnerHTML={{
+            __html: DOMPurify.sanitize(step),
+          }}
+        ></li>
       );
     });
   };
@@ -79,7 +76,7 @@ const Recipe = (props: RecipeProps) => {
       </div>
       <div>
         <SC.Subheader className="subheader">Steps: </SC.Subheader>
-        {recipeSteps(recipe.steps)}
+        <SC.OrderedList>{recipeSteps(recipe.steps)}</SC.OrderedList>
       </div>
     </SC.Recipe>
   );

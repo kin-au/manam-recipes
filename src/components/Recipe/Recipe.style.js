@@ -22,4 +22,12 @@ const Subheader = styled.h2`
   font-size: 1rem;
 `;
 
-export { Recipe, BackButton, Header, Subheader };
+const OrderedList = styled.ol`
+  counter-reset: list;
+  li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+  }
+`;
+
+export { Recipe, BackButton, Header, Subheader, OrderedList };
