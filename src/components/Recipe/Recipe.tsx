@@ -54,30 +54,30 @@ const Recipe = (props: RecipeProps) => {
         <h1>{recipe.name}</h1>
         <div>{recipe.description}</div>
       </SC.Header>
-      <div>
-        <SC.Subheader className="subheader">Cuisine: </SC.Subheader>
+      <SC.SubSection>
+        <SC.SubHeader className="subheader">Cuisine: </SC.SubHeader>
         {recipe.cuisine}
-      </div>
-      <div>
-        <SC.Subheader className="subheader">Type: </SC.Subheader>
+      </SC.SubSection>
+      <SC.SubSection>
+        <SC.SubHeader className="subheader">Type: </SC.SubHeader>
         {recipe.type}
-      </div>
-      <div>
-        <SC.Subheader className="subheader">Servings: </SC.Subheader>
+      </SC.SubSection>
+      <SC.SubSection>
+        <SC.SubHeader className="subheader">Servings: </SC.SubHeader>
         {recipe.servings}
-      </div>
-      <div>
-        <SC.Subheader className="subheader">Prep & cook time: </SC.Subheader>
+      </SC.SubSection>
+      <SC.SubSection>
+        <SC.SubHeader className="subheader">Prep & cook time: </SC.SubHeader>
         {recipe.time}mins
-      </div>
-      <div>
-        <SC.Subheader className="subheader">Ingredients: </SC.Subheader>
+      </SC.SubSection>
+      <SC.SubSection>
+        <SC.SubHeader className="subheader">Ingredients: </SC.SubHeader>
         <ul>{ingredientsList(recipe.ingredients)}</ul>
-      </div>
-      <div>
-        <SC.Subheader className="subheader">Steps: </SC.Subheader>
+      </SC.SubSection>
+      <SC.SubSection>
+        <SC.SubHeader className="subheader">Steps: </SC.SubHeader>
         <SC.OrderedList>{recipeSteps(recipe.steps)}</SC.OrderedList>
-      </div>
+      </SC.SubSection>
     </SC.Recipe>
   );
 };

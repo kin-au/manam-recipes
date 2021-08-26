@@ -18,8 +18,12 @@ const Header = styled.header`
   }
 `;
 
-const Subheader = styled.h2`
+const SubHeader = styled.h2`
   font-size: 1rem;
+`;
+
+const SubSection = styled.div`
+  margin-top: 1rem;
 `;
 
 const OrderedList = styled.ol`
@@ -30,4 +34,4 @@ const OrderedList = styled.ol`
   }
 `;
 
-export { Recipe, BackButton, Header, Subheader, OrderedList };
+export { Recipe, BackButton, Header, SubHeader, SubSection, OrderedList };
