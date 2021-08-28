@@ -11,11 +11,19 @@ const RecipeFinder = styled.div`
 const SearchContainer = styled.div`
   display: flex;
   flex-direction: column;
+  margin-right: 0.25rem;
 `;
 
 const SortContainer = styled.div`
   display: flex;
   flex-direction: column;
+  margin-left: 0.25rem;
 `;
 
-export { RecipeFinder, SearchContainer, SortContainer };
+const Field = styled.div`
+  margin: 0.25rem 0;
+  display: flex;
+  flex-direction: column;
+`;
+
+export { RecipeFinder, SearchContainer, SortContainer, Field };
