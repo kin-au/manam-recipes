@@ -72,7 +72,9 @@ const Recipe = (props: RecipeProps) => {
       </SC.SubSection>
       <SC.SubSection>
         <SC.SubHeader className="subheader">Ingredients: </SC.SubHeader>
-        <ul>{ingredientsList(recipe.ingredients)}</ul>
+        <SC.UnorderedList>
+          {ingredientsList(recipe.ingredients)}
+        </SC.UnorderedList>
       </SC.SubSection>
       <SC.SubSection>
         <SC.SubHeader className="subheader">Steps: </SC.SubHeader>

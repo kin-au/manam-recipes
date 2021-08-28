@@ -26,6 +26,13 @@ const SubSection = styled.div`
   margin-top: 1rem;
 `;
 
+const UnorderedList = styled.ol`
+  li {
+    list-style-position: inside;
+    list-style-type: square;
+  }
+`;
+
 const OrderedList = styled.ol`
   counter-reset: list;
   li:before {
@@ -34,4 +41,12 @@ const OrderedList = styled.ol`
   }
 `;
 
-export { Recipe, BackButton, Header, SubHeader, SubSection, OrderedList };
+export {
+  Recipe,
+  BackButton,
+  Header,
+  SubHeader,
+  SubSection,
+  UnorderedList,
+  OrderedList,
+};
