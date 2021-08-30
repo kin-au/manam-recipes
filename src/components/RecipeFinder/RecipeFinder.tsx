@@ -45,75 +45,91 @@ const RecipeFinder = (props: RecipeFinderProps) => {
     <SC.RecipeFinder>
       <SC.SearchContainer>
         <SC.Field>
-          <label htmlFor="nameSearch">Search recipes</label>
-          <input
-            id="nameSearch"
-            className="inputField"
-            type="search"
-            placeholder="Find a recipe by name"
-            value={nameSearchText}
-            onChange={(event) => setNameSearchText(event.target.value)}
-          />
+          <SC.FieldLabel htmlFor="nameSearch">Search recipes</SC.FieldLabel>
+          <SC.FieldInput>
+            <input
+              id="nameSearch"
+              className="inputField"
+              type="search"
+              placeholder="Find a recipe by name"
+              value={nameSearchText}
+              onChange={(event) => setNameSearchText(event.target.value)}
+            />
+          </SC.FieldInput>
         </SC.Field>
         <SC.Field>
-          <label htmlFor="cuisineSearch">Search cuisines</label>
-          <select
-            id="cuisineSearch"
-            className="inputField"
-            value={cuisineSearchText}
-            onChange={(event) => setCuisineSearchText(event.target.value)}
-          >
-            <option value="">All cuisines</option>
-            {cuisineList(allRecipes).map((cuisine) => {
-              return <option value={cuisine}>{cuisine}</option>;
-            })}
-          </select>
+          <SC.FieldLabel htmlFor="cuisineSearch">Search cuisines</SC.FieldLabel>
+          <SC.FieldInput>
+            <select
+              id="cuisineSearch"
+              className="inputField"
+              value={cuisineSearchText}
+              onChange={(event) => setCuisineSearchText(event.target.value)}
+            >
+              <option value="">All cuisines</option>
+              {cuisineList(allRecipes).map((cuisine) => {
+                return <option value={cuisine}>{cuisine}</option>;
+              })}
+            </select>
+          </SC.FieldInput>
         </SC.Field>
         <SC.Field>
-          <label htmlFor="typeSearch">Search types</label>
-          <select
-            id="typeSearch"
-            className="inputField"
-            value={typeSearchText}
-            onChange={(event) => setTypeSearchText(event.target.value)}
-          >
-            <option value="">All types</option>
-            {typeList(allRecipes).map((type) => {
-              return <option value={type}>{type}</option>;
-            })}
-          </select>
+          <SC.FieldLabel htmlFor="typeSearch">Search types</SC.FieldLabel>
+          <SC.FieldInput>
+            <select
+              id="typeSearch"
+              className="inputField"
+              value={typeSearchText}
+              onChange={(event) => setTypeSearchText(event.target.value)}
+            >
+              <option value="">All types</option>
+              {typeList(allRecipes).map((type) => {
+                return <option value={type}>{type}</option>;
+              })}
+            </select>
+          </SC.FieldInput>
         </SC.Field>
       </SC.SearchContainer>
       <SC.SortContainer>
         <SC.Field>
-          <label htmlFor="sortType">Sort by</label>
-          <select
-            id="sortType"
-            className="inputField"
-            value={sortType}
-            onChange={(event) => setSortType(event.target.value as SortType)}
-          >
-            <option value="Alphabetical">Alphabetical</option>
-            <option value="Prep & cook time">Prep & cook time</option>
-            <option value="Number of ingredients">Number of ingredients</option>
-          </select>
+          <SC.FieldLabel htmlFor="sortType">Sort by</SC.FieldLabel>
+          <SC.FieldInput>
+            <select
+              id="sortType"
+              className="inputField"
+              value={sortType}
+              onChange={(event) => setSortType(event.target.value as SortType)}
+            >
+              <option value="Alphabetical">Alphabetical</option>
+              <option value="Prep & cook time">Prep & cook time</option>
+              <option value="Number of ingredients">
+                Number of ingredients
+              </option>
+            </select>
+          </SC.FieldInput>
         </SC.Field>
         <SC.Field>
-          <label htmlFor="sortOrder">Sort direction</label>
-          <select
-            id="sortOrder"
-            className="inputField"
-            value={sortOrder}
-            onChange={(event) => setSortOrder(event.target.value as SortOrder)}
-          >
-            <option value="Ascending">Ascending</option>
-            <option value="Descending">Descending</option>
-          </select>
+          <SC.FieldLabel htmlFor="sortOrder">Sort direction</SC.FieldLabel>
+          <SC.FieldInput>
+            <select
+              id="sortOrder"
+              className="inputField"
+              value={sortOrder}
+              onChange={(event) =>
+                setSortOrder(event.target.value as SortOrder)
+              }
+            >
+              <option value="Ascending">Ascending</option>
+              <option value="Descending">Descending</option>
+            </select>
+          </SC.FieldInput>
+        </SC.Field>
+        <SC.Field>
+          <SC.ResetButton type="button" onClick={() => resetSearch()}>
+            Reset all
+          </SC.ResetButton>
         </SC.Field>
       </SC.SortContainer>
-      <button type="button" onClick={() => resetSearch()}>
-        Reset all
-      </button>
     </SC.RecipeFinder>
   );
 };

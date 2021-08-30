@@ -26,4 +26,30 @@ const Field = styled.div`
   flex-direction: column;
 `;
 
-export { RecipeFinder, SearchContainer, SortContainer, Field };
+const FieldLabel = styled.label`
+  margin-bottom: 0.25rem;
+  height: 1rem;
+`;
+
+const FieldInput = styled.div`
+  height: 1.25rem;
+  /* margin-bottom: 0.25rem; */
+  select {
+    /* height: 100%; */
+    width: 100%;
+  }
+`;
+
+const ResetButton = styled.button`
+  margin-top: 1.25rem;
+`;
+
+export {
+  RecipeFinder,
+  SearchContainer,
+  SortContainer,
+  Field,
+  FieldLabel,
+  FieldInput,
+  ResetButton,
+};
