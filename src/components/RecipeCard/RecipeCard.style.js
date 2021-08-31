@@ -7,6 +7,18 @@ const RecipeCard = styled.div`
   box-shadow: 0.125rem 0.125rem 0.5rem #403d3959;
   background-color: #fffcf2;
   display: flex;
+  flex-direction: column;
+`;
+
+const CardHeader = styled.header`
+  font-weight: 500;
+  font-size: 1.33rem;
+  margin-bottom: 0.25rem;
+  padding: 0.25rem;
+`;
+
+const CardBody = styled.div`
+  display: flex;
   justify-content: space-between;
   align-items: center;
 `;
@@ -14,12 +26,6 @@ const RecipeCard = styled.div`
 const RecipeText = styled.div`
   display: flex;
   flex-direction: column;
-
-  header {
-    font-weight: 500;
-    font-size: 1.25rem;
-    padding: 0.25rem;
-  }
 
   .recipeDetail {
     padding: 0.25rem;
@@ -35,4 +41,4 @@ const StyledLink = styled(Link)`
   text-decoration: none;
 `;
 
-export { RecipeCard, RecipeText, StyledLink };
+export { RecipeCard, CardHeader, CardBody, RecipeText, StyledLink };

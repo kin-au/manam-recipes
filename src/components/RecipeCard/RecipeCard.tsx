@@ -11,22 +11,24 @@ const RecipeCard = (props: RecipeCardProps) => {
       onClick={() => setSelectedRecipe(recipe)}
     >
       <SC.RecipeCard key={recipe.id}>
-        <SC.RecipeText>
-          <header>{recipe.name}</header>
-          <div className="recipeDetail">
-            <span className="subheader">Cuisine: </span>
-            {recipe.cuisine}
-          </div>
-          <div className="recipeDetail">
-            <span className="subheader">Type: </span>
-            {recipe.type}
-          </div>
-          <div className="recipeDetail">
-            <span className="subheader">Prep & cook time: </span>
-            {recipe.time}mins
-          </div>
-        </SC.RecipeText>
-        <RecipeImage recipeName={recipe.name} recipeImage={recipe.image} />
+        <SC.CardHeader>{recipe.name}</SC.CardHeader>
+        <SC.CardBody>
+          <SC.RecipeText>
+            <div className="recipeDetail">
+              <span className="subheader">Cuisine: </span>
+              {recipe.cuisine}
+            </div>
+            <div className="recipeDetail">
+              <span className="subheader">Type: </span>
+              {recipe.type}
+            </div>
+            <div className="recipeDetail">
+              <span className="subheader">Prep & cook time: </span>
+              {recipe.time}mins
+            </div>
+          </SC.RecipeText>
+          <RecipeImage recipeName={recipe.name} recipeImage={recipe.image} />
+        </SC.CardBody>
       </SC.RecipeCard>
     </SC.StyledLink>
   );
