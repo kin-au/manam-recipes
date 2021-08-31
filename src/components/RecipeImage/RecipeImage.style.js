@@ -5,6 +5,8 @@ const Container = styled.div`
   width: 5rem;
   border-radius: 2px;
   background: linear-gradient(#e9e9e9, #e4e4e4);
+  flex-shrink: 0;
+  align-self: flex-end;
   display: flex;
   justify-content: center;
   align-items: center;
