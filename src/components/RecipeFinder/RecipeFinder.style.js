@@ -33,15 +33,34 @@ const FieldLabel = styled.label`
 
 const FieldInput = styled.div`
   height: 1.25rem;
-  /* margin-bottom: 0.25rem; */
+  input {
+    padding-left: 0.25rem;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+  }
   select {
-    /* height: 100%; */
+    padding-left: 0.25rem;
     width: 100%;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    :hover {
+      cursor: pointer;
+    }
   }
 `;
 
 const ResetButton = styled.button`
   margin-top: 1.25rem;
+  height: 1.5rem;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  :hover {
+    cursor: pointer;
+    background-color: #fffcf2;
+  }
 `;
 
 export {
