@@ -26,14 +26,14 @@ const CardBody = styled.div`
 const RecipeText = styled.div`
   display: flex;
   flex-direction: column;
+`;
 
-  .recipeDetail {
-    padding: 0.25rem;
-  }
+const RecipeDetail = styled.div`
+  padding: 0.25rem;
+`;
 
-  .subheader {
-    font-style: italic;
-  }
+const SubHeader = styled.span`
+  font-style: italic;
 `;
 
 const StyledLink = styled(Link)`
@@ -41,4 +41,12 @@ const StyledLink = styled(Link)`
   text-decoration: none;
 `;
 
-export { RecipeCard, CardHeader, CardBody, RecipeText, StyledLink };
+export {
+  RecipeCard,
+  CardHeader,
+  CardBody,
+  RecipeText,
+  RecipeDetail,
+  SubHeader,
+  StyledLink,
+};

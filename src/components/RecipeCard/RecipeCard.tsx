@@ -14,18 +14,18 @@ const RecipeCard = (props: RecipeCardProps) => {
         <SC.CardHeader>{recipe.name}</SC.CardHeader>
         <SC.CardBody>
           <SC.RecipeText>
-            <div className="recipeDetail">
-              <span className="subheader">Cuisine: </span>
+            <SC.RecipeDetail>
+              <SC.SubHeader>Cuisine: </SC.SubHeader>
               {recipe.cuisine}
-            </div>
-            <div className="recipeDetail">
-              <span className="subheader">Type: </span>
+            </SC.RecipeDetail>
+            <SC.RecipeDetail>
+              <SC.SubHeader>Type: </SC.SubHeader>
               {recipe.type}
-            </div>
-            <div className="recipeDetail">
-              <span className="subheader">Prep & cook time: </span>
+            </SC.RecipeDetail>
+            <SC.RecipeDetail>
+              <SC.SubHeader>Prep & cook time: </SC.SubHeader>
               {recipe.time}mins
-            </div>
+            </SC.RecipeDetail>
           </SC.RecipeText>
           <RecipeImage recipeName={recipe.name} recipeImage={recipe.image} />
         </SC.CardBody>
