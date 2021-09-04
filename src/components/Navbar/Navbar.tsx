@@ -1,11 +1,9 @@
 import React from "react";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
-import Box from "@material-ui/core/Box";
 import MenuIcon from "@material-ui/icons/Menu";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import Divider from "@material-ui/core/Divider";
-import { Link } from "react-router-dom";
 import * as SC from "./NavBar.style.js";
 
 const Navbar = () => {
@@ -30,12 +28,10 @@ const Navbar = () => {
         onOpen={() => {}}
       >
         <SC.MenuContainer>
-          <Box textAlign="center" p={6}>
-            Menu
-          </Box>
+          <SC.MenuHeader>Menu</SC.MenuHeader>
           <Divider />
           <List>
-            <Link to="/">
+            <SC.StyledLink to="/">
               <ListItem
                 button
                 onClick={() => {
@@ -44,8 +40,8 @@ const Navbar = () => {
               >
                 <SC.StyledListItemText primary={"Home"} />
               </ListItem>
-            </Link>
-            <Link to="/about">
+            </SC.StyledLink>
+            <SC.StyledLink to="/about">
               <ListItem
                 button
                 onClick={() => {
@@ -54,8 +50,8 @@ const Navbar = () => {
               >
                 <SC.StyledListItemText primary={"About"} />
               </ListItem>
-            </Link>
-            <Link to="/recipes">
+            </SC.StyledLink>
+            <SC.StyledLink to="/recipes">
               <ListItem
                 button
                 onClick={() => {
@@ -64,8 +60,8 @@ const Navbar = () => {
               >
                 <SC.StyledListItemText primary={"Recipes"} />
               </ListItem>
-            </Link>
-            <Link to="/contact">
+            </SC.StyledLink>
+            <SC.StyledLink to="/contact">
               <ListItem
                 button
                 onClick={() => {
@@ -74,7 +70,7 @@ const Navbar = () => {
               >
                 <SC.StyledListItemText primary={"Contact"} />
               </ListItem>
-            </Link>
+            </SC.StyledLink>
           </List>
         </SC.MenuContainer>
       </SwipeableDrawer>
