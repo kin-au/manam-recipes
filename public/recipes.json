@@ -17,6 +17,26 @@
     },
     {
       "id": 0,
+      "url": "sweet-and-sour-sauce",
+      "name": "Sweet and Sour Sauce",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "Chinese",
+      "type": "Sauce",
+      "servings": "2",
+      "time": 5,
+      "ingredients": [
+        "3 tbsp tomato ketcup",
+        "1 tbsp sugar",
+        "1 tbsp worcester sauce",
+        "2 tbsp water"
+      ],
+      "steps": ["Combine all ingredients in a bowl and mix well"],
+      "source": "SOURCE",
+      "enabled": true
+    },
+    {
+      "id": 0,
       "url": "pad-kra-pao-sauce",
       "name": "Pad Kra Pao sauce",
       "description": "DESCRIPTION",
