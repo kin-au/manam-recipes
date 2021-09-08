@@ -526,11 +526,28 @@
       "description": "DESCRIPTION",
       "image": "",
       "cuisine": "CUISINE",
-      "type": "TYPE",
-      "servings": "PORTIONS",
-      "time": 0,
-      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
-      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "type": "Meal",
+      "servings": "2",
+      "time": 30,
+      "ingredients": [
+        "350g chicken breast (diced)",
+        "1 avocado (diced)",
+        "1 large sweet potato (diced)",
+        "QUANTITY baby/plum tomaotoes (halved)",
+        "QUANTITY lettuce (roughly chopped)",
+        "QUANTITY pine nuts",
+        "QUANTITY bacon or chorizo",
+        "Salad dressing"
+      ],
+      "steps": [
+        "Roast 1 large sweet potato (diced) in the oven at 180deg for 20 minutes",
+        "Toast QUANTITY pine nuts on a frying pan, keep tossing until golden brown",
+        "Heat up some oil on a pan to fry QUANTITY bacon or chorizo",
+        "Season 350g chicken breast with salt and pepper",
+        "Pan fry chicken breast until cooked",
+        "Wait for all ingredients to cool down",
+        "In a large bowl, mix together QUANTITY lettuce (roughly chopped), chicken, sweet potato, 1 avocado (diced), QUANTITY baby/plum tomatoes (halved), QUANTITY pine nuts, and the bacon"
+      ],
       "source": "SOURCE",
       "enabled": true
     },
