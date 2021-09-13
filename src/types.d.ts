@@ -29,3 +29,11 @@ export type RecipeData =
     };
 
 export type AllRecipeData = any | Recipe[];
+
+export interface FinderFields {
+  nameSearchText: string;
+  cuisineSearchText: string;
+  typeSearchText: string;
+  sortType: SortType;
+  sortOrder: SortOrder;
+}

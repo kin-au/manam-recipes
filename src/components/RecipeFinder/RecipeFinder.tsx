@@ -4,18 +4,10 @@ import allSearch from "../../utils/allSearch";
 import cuisineList from "../../utils/cuisineList";
 import sortRecipes from "../../utils/sortRecipes";
 import typeList from "../../utils/typeList";
-import { FinderFields, RecipeFinderProps, SortOrder, SortType } from "./types";
+import { RecipeFinderProps, SortOrder, SortType } from "./types";
 
 const RecipeFinder = (props: RecipeFinderProps) => {
-  const { allRecipes, setShowRecipes } = props;
-
-  const [finderFields, setFinderFields] = React.useState<FinderFields>({
-    nameSearchText: "",
-    cuisineSearchText: "",
-    typeSearchText: "",
-    sortType: "Alphabetical",
-    sortOrder: "Ascending",
-  });
+  const { allRecipes, setShowRecipes, finderFields, setFinderFields } = props;
 
   React.useEffect(() => {
     const searchedRecipes = allSearch(

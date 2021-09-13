@@ -1,16 +1,10 @@
-import { AllRecipeData } from "../../types";
+import { AllRecipeData, FinderFields } from "../../types";
 
 export interface RecipeFinderProps {
   allRecipes: AllRecipeData;
   setShowRecipes: React.Dispatch<any>;
-}
-
-export interface FinderFields {
-  nameSearchText: string;
-  cuisineSearchText: string;
-  typeSearchText: string;
-  sortType: SortType;
-  sortOrder: SortOrder;
+  finderFields: FinderFields;
+  setFinderFields: React.Dispatch<React.SetStateAction<FinderFields>>;
 }
 
 export type SortType =
