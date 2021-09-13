@@ -5,6 +5,14 @@ export interface RecipeFinderProps {
   setShowRecipes: React.Dispatch<any>;
 }
 
+export interface FinderFields {
+  nameSearchText: string;
+  cuisineSearchText: string;
+  typeSearchText: string;
+  sortType: SortType;
+  sortOrder: SortOrder;
+}
+
 export type SortType =
   | "Alphabetical"
   | "Prep & cook time"

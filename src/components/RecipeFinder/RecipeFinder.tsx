@@ -4,41 +4,51 @@ import allSearch from "../../utils/allSearch";
 import cuisineList from "../../utils/cuisineList";
 import sortRecipes from "../../utils/sortRecipes";
 import typeList from "../../utils/typeList";
-import { RecipeFinderProps, SortOrder, SortType } from "./types";
+import { FinderFields, RecipeFinderProps, SortOrder, SortType } from "./types";
 
 const RecipeFinder = (props: RecipeFinderProps) => {
   const { allRecipes, setShowRecipes } = props;
 
-  const [nameSearchText, setNameSearchText] = React.useState("");
-  const [cuisineSearchText, setCuisineSearchText] = React.useState("");
-  const [typeSearchText, setTypeSearchText] = React.useState("");
-  const [sortType, setSortType] = React.useState<SortType>("Alphabetical");
-  const [sortOrder, setSortOrder] = React.useState<SortOrder>("Ascending");
+  const [finderFields, setFinderFields] = React.useState<FinderFields>({
+    nameSearchText: "",
+    cuisineSearchText: "",
+    typeSearchText: "",
+    sortType: "Alphabetical",
+    sortOrder: "Ascending",
+  });
 
   React.useEffect(() => {
     const searchedRecipes = allSearch(
       allRecipes,
-      nameSearchText,
-      cuisineSearchText,
-      typeSearchText
+      finderFields.nameSearchText,
+      finderFields.cuisineSearchText,
+      finderFields.typeSearchText
     );
-    setShowRecipes(sortRecipes(searchedRecipes, sortType, sortOrder));
+    setShowRecipes(
+      sortRecipes(
+        searchedRecipes,
+        finderFields.sortType,
+        finderFields.sortOrder
+      )
+    );
   }, [
     setShowRecipes,
     allRecipes,
-    nameSearchText,
-    cuisineSearchText,
-    typeSearchText,
-    sortType,
-    sortOrder,
+    finderFields.nameSearchText,
+    finderFields.cuisineSearchText,
+    finderFields.typeSearchText,
+    finderFields.sortType,
+    finderFields.sortOrder,
   ]);
 
   const resetSearch = () => {
-    setNameSearchText("");
-    setCuisineSearchText("");
-    setTypeSearchText("");
-    setSortType("Alphabetical");
-    setSortOrder("Ascending");
+    setFinderFields({
+      nameSearchText: "",
+      cuisineSearchText: "",
+      typeSearchText: "",
+      sortType: "Alphabetical",
+      sortOrder: "Ascending",
+    });
   };
 
   return (
@@ -52,8 +62,13 @@ const RecipeFinder = (props: RecipeFinderProps) => {
               className="inputField"
               type="search"
               placeholder="Find a recipe by name"
-              value={nameSearchText}
-              onChange={(event) => setNameSearchText(event.target.value)}
+              value={finderFields.nameSearchText}
+              onChange={(event) =>
+                setFinderFields({
+                  ...finderFields,
+                  nameSearchText: event.target.value,
+                })
+              }
             />
           </SC.FieldInput>
         </SC.Field>
@@ -63,8 +78,13 @@ const RecipeFinder = (props: RecipeFinderProps) => {
             <select
               id="cuisineSearch"
               className="inputField"
-              value={cuisineSearchText}
-              onChange={(event) => setCuisineSearchText(event.target.value)}
+              value={finderFields.cuisineSearchText}
+              onChange={(event) =>
+                setFinderFields({
+                  ...finderFields,
+                  cuisineSearchText: event.target.value,
+                })
+              }
             >
               <option value="">All cuisines</option>
               {cuisineList(allRecipes).map((cuisine) => {
@@ -79,8 +99,13 @@ const RecipeFinder = (props: RecipeFinderProps) => {
             <select
               id="typeSearch"
               className="inputField"
-              value={typeSearchText}
-              onChange={(event) => setTypeSearchText(event.target.value)}
+              value={finderFields.typeSearchText}
+              onChange={(event) =>
+                setFinderFields({
+                  ...finderFields,
+                  typeSearchText: event.target.value,
+                })
+              }
             >
               <option value="">All types</option>
               {typeList(allRecipes).map((type) => {
@@ -97,8 +122,13 @@ const RecipeFinder = (props: RecipeFinderProps) => {
             <select
               id="sortType"
               className="inputField"
-              value={sortType}
-              onChange={(event) => setSortType(event.target.value as SortType)}
+              value={finderFields.sortType}
+              onChange={(event) =>
+                setFinderFields({
+                  ...finderFields,
+                  sortType: event.target.value as SortType,
+                })
+              }
             >
               <option value="Alphabetical">Alphabetical</option>
               <option value="Prep & cook time">Prep & cook time</option>
@@ -114,9 +144,12 @@ const RecipeFinder = (props: RecipeFinderProps) => {
             <select
               id="sortOrder"
               className="inputField"
-              value={sortOrder}
+              value={finderFields.sortOrder}
               onChange={(event) =>
-                setSortOrder(event.target.value as SortOrder)
+                setFinderFields({
+                  ...finderFields,
+                  sortOrder: event.target.value as SortOrder,
+                })
               }
             >
               <option value="Ascending">Ascending</option>
