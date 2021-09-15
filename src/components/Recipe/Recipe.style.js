@@ -27,8 +27,8 @@ const SubSection = styled.div`
 `;
 
 const UnorderedList = styled.ol`
+  margin-left: 1rem;
   li {
-    list-style-position: inside;
     list-style-type: square;
   }
 `;
