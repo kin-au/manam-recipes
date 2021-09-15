@@ -34,10 +34,17 @@ const UnorderedList = styled.ol`
 `;
 
 const OrderedList = styled.ol`
+  margin-left: 2.2rem;
   counter-reset: list;
   li:before {
+    margin-left: -2.2rem;
     content: counter(list) ") ";
+    display: inline-block;
     counter-increment: list;
+    width: 2.2rem;
+  }
+  li {
+    margin-bottom: 0.5rem;
   }
 `;
 
