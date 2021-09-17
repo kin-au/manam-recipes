@@ -1,6 +1,7 @@
 import React from "react";
 import * as SC from "./App.style";
-import { AllRecipeData, FinderFields, RecipeData } from "./types";
+import { ThemeProvider } from "styled-components";
+import { lightTheme, darkTheme } from "./themes";
 import Recipes from "./pages/Recipes/Recipes";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -13,6 +14,7 @@ import enabledFilter from "./utils/enabledFilter";
 import Recipe from "./components/Recipe/Recipe";
 
 const App = () => {
+  const [theme, setTheme] = React.useState<Themes>("light");
   const [allRecipes, setAllRecipes] = React.useState<AllRecipeData>([]);
   const [showRecipes, setShowRecipes] = React.useState<AllRecipeData>([]);
   const [selectedRecipe, setSelectedRecipe] = React.useState<RecipeData>([]);
@@ -33,38 +35,40 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <SC.GlobalStyle />
-        <SC.Container>
-          <Header
-            allRecipes={allRecipes}
-            setShowRecipes={setShowRecipes}
-            finderFields={finderFields}
-            setFinderFields={setFinderFields}
-          />
-          <SC.Page>
-            <Switch>
-              <Route path="/about">
-                <About />
-              </Route>
-              <Route path="/recipes/:url">
-                <Recipe recipe={selectedRecipe} />
-              </Route>
-              <Route path="/recipes">
-                <Recipes
-                  showRecipes={showRecipes}
-                  setSelectedRecipe={setSelectedRecipe}
-                />
-              </Route>
-              <Route path="/contact">
-                <Contact />
-              </Route>
-              <Route path="/">
-                <Home />
-              </Route>
-            </Switch>
-          </SC.Page>
-          <Footer />
-        </SC.Container>
+        <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+          <SC.GlobalStyle />
+          <SC.Container>
+            <Header
+              allRecipes={allRecipes}
+              setShowRecipes={setShowRecipes}
+              finderFields={finderFields}
+              setFinderFields={setFinderFields}
+            />
+            <SC.Page>
+              <Switch>
+                <Route path="/about">
+                  <About />
+                </Route>
+                <Route path="/recipes/:url">
+                  <Recipe recipe={selectedRecipe} />
+                </Route>
+                <Route path="/recipes">
+                  <Recipes
+                    showRecipes={showRecipes}
+                    setSelectedRecipe={setSelectedRecipe}
+                  />
+                </Route>
+                <Route path="/contact">
+                  <Contact />
+                </Route>
+                <Route path="/">
+                  <Home />
+                </Route>
+              </Switch>
+            </SC.Page>
+            <Footer />
+          </SC.Container>
+        </ThemeProvider>
       </BrowserRouter>
     </>
   );

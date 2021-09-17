@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { lightTheme } from "../../themes";
 
 const Header = styled.header`
   position: sticky;
@@ -10,8 +9,8 @@ const Header = styled.header`
   align-items: center;
   margin-bottom: 1rem;
   padding: 1rem;
-  background-color: ${lightTheme.colors.background};
-  color: ${lightTheme.colors.primary};
+  background-color: ${(props) => props.theme.accent};
+  color: ${(props) => props.theme.primaryText};
   box-shadow: 0 0.125rem 0.5rem #403d3959;
 
   h1 {

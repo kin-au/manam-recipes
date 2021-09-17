@@ -2,13 +2,15 @@ import "styled-components";
 
 declare module "styled-components" {
   export interface DefaultTheme {
-    colors: {
-      background: string;
-      primary: string;
-      secondary: string;
-    };
+    primaryBackground: string;
+    primaryText: string;
+    secondaryBackground: string;
+    secondaryText: string;
+    accent: string;
   }
 }
+
+export type Themes = "light" | "dark";
 
 export type RecipeData =
   | any

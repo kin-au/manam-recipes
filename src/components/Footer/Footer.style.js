@@ -1,12 +1,11 @@
 import styled from "styled-components";
-import { lightTheme } from "../../themes";
 
 const Footer = styled.footer`
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 1rem 0rem;
-  color: ${lightTheme.colors.primary};
+  color: ${(props) => props.theme.primary};
   font-size: 0.8rem;
 
   a {
