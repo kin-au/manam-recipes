@@ -18,17 +18,19 @@ const Header = styled.header`
   }
 `;
 
-const SubHeader = styled.h2`
-  font-size: 1rem;
+const SubSection = styled.div`
+  margin-top: 1.2rem;
 `;
 
-const SubSection = styled.div`
-  margin-top: 1rem;
+const SubHeader = styled.h2`
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
 `;
 
 const UnorderedList = styled.ol`
   margin-left: 1rem;
   li {
+    margin-bottom: 0.5rem;
     list-style-type: square;
   }
 `;
