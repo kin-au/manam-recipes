@@ -2,6 +2,7 @@ import React from "react";
 import * as SC from "./App.style";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./themes";
+import { AllRecipeData, FinderFields, RecipeData, Themes } from "./types";
 import Recipes from "./pages/Recipes/Recipes";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -39,6 +40,8 @@ const App = () => {
           <SC.GlobalStyle />
           <SC.Container>
             <Header
+              theme={theme}
+              setTheme={setTheme}
               allRecipes={allRecipes}
               setShowRecipes={setShowRecipes}
               finderFields={finderFields}

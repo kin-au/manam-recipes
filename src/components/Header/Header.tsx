@@ -3,14 +3,23 @@ import * as SC from "./Header.style.js";
 import { HeaderProps } from "./types";
 import Navbar from "../Navbar/Navbar";
 import RecipeFinder from "../RecipeFinder/RecipeFinder";
+import ThemeToggle from "../ThemeToggle/ThemeToggle";
 import { useLocation } from "react-router-dom";
 
 const Header = (props: HeaderProps) => {
-  const { allRecipes, setShowRecipes, finderFields, setFinderFields } = props;
+  const {
+    theme,
+    setTheme,
+    allRecipes,
+    setShowRecipes,
+    finderFields,
+    setFinderFields,
+  } = props;
   const showingRecipes = useLocation().pathname === "/recipes";
   return (
     <SC.Header>
       <h1>Manam Recipes</h1>
+      <ThemeToggle theme={theme} setTheme={setTheme} />
       <Navbar />
       {!showingRecipes ? null : (
         <RecipeFinder
