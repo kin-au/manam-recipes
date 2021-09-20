@@ -2,16 +2,16 @@ import { DefaultTheme } from "styled-components";
 
 const lightTheme: DefaultTheme = {
   primaryBackground: "#FFFFFF",
-  primaryText: "#000000",
+  primaryText: "#403D39",
   secondaryBackground: "#FFFCF2",
   secondaryText: "#403D39",
   accent: "#E5A4CB",
 };
 
 const darkTheme: DefaultTheme = {
-  primaryBackground: "#000000",
-  primaryText: "#FFFFFF",
-  secondaryBackground: "#403D39",
+  primaryBackground: "#403D39",
+  primaryText: "#FFFCF2",
+  secondaryBackground: "#706E6B",
   secondaryText: "#FFFCF2",
   accent: "#E5A4CB",
 };

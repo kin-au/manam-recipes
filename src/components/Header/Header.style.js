@@ -10,7 +10,7 @@ const Header = styled.header`
   margin-bottom: 1rem;
   padding: 1rem;
   background-color: ${(props) => props.theme.accent};
-  color: ${(props) => props.theme.primaryText};
+  color: #403d39;
   box-shadow: 0 0.125rem 0.5rem #403d3959;
 
   h1 {

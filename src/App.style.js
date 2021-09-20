@@ -12,6 +12,8 @@ const GlobalStyle = createGlobalStyle`
 
 const Container = styled.div`
   min-height: 100vh;
+  background-color: ${(props) => props.theme.primaryBackground};
+  color: ${(props) => props.theme.primaryText};
   display: flex;
   flex-direction: column;
   justify-content: space-between;
