@@ -7,7 +7,7 @@ const Recipe = styled.div`
 const BackButton = styled.div`
   margin: 1rem 0;
   a {
-    color: #403d39;
+    color: ${(props) => props.theme.primaryText};
     text-decoration: none;
   }
 `;

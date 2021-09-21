@@ -4,8 +4,9 @@ import { Link } from "react-router-dom";
 const RecipeCard = styled.div`
   margin: 0.75rem 0;
   padding: 0.75rem;
-  box-shadow: 0.125rem 0.125rem 0.5rem #403d3959;
-  background-color: #fffcf2;
+  box-shadow: 0.125rem 0.125rem 0.5rem #00000059;
+  background-color: ${(props) => props.theme.secondaryBackground};
+  color: ${(props) => props.theme.secondaryText};
   display: flex;
   flex-direction: column;
 `;

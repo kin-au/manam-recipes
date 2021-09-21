@@ -17,11 +17,12 @@ const StyledListItemText = styled(ListItemText)`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: ${(props) => props.theme.secondaryText};
 `;
 
 const MenuContainer = styled.div`
-  background-color: #fffcf2;
+  background-color: ${(props) => props.theme.secondaryBackground};
+  color: ${(props) => props.theme.secondaryText};
 `;
 
 const StyledLink = styled(Link)`
