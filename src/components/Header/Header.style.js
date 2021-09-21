@@ -11,7 +11,7 @@ const Header = styled.header`
   padding: 1rem;
   background-color: ${(props) => props.theme.accent};
   color: #403d39;
-  box-shadow: 0 0.125rem 0.5rem #403d3959;
+  box-shadow: 0 0.125rem 0.5rem #00000059;
 
   h1 {
     font-size: 2rem;
