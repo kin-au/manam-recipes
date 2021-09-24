@@ -17,6 +17,41 @@
     },
     {
       "id": 0,
+      "url": "sujebi",
+      "name": "Sujebi (Hand-torn noodle soup)",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "Korean",
+      "type": "Meal",
+      "servings": "2",
+      "time": 60,
+      "ingredients": [
+        "250g plain flour",
+        "160g cold water",
+        "2 sheets kelp (cut into thick strips)",
+        "15 anchovies",
+        "3g table salt",
+        "1 large stalk green onion",
+        "12g vegetable oil",
+        "1 tsp sesame oil",
+        "1 tbsp soya sauce",
+        "1 tbsp fish sauce"
+      ],
+      "steps": [
+        "Fill a large pot with 2 litres of cold water. Add 2 sheets pre-cut kelp and 15 anchovies. Bring to the boil, then leave on rolling boil, uncovered at medium heat for 20 minutes.",
+        "Put 250g plain flour, 160g cold water, 3g table salt and 12g vegetable oil into a large mixing bowl.",
+        "Mix together until combined and then knead for 10-15 minutes until it forms a smooth ball. Cover with cling film and put into the fridge.",
+        "Chop the green onion into 1cm wide pieces.",
+        "Now to make the noodles - take out the dough, pull and stretch thin pieces of dough and drop into the boiling kelp/anchovy soup. Alternatively, roll the dough out very thin, and use a knife to slice small rectangular pieces of dough. As you pick up each piece, it will stretch thinner. Drop directly into the boiling soup.",
+        "Allow the noodles to cook for 10 minutes or until all the noodle pieces are floating.",
+        "Add 1 tsp sesame oil and the chopped green onions to the pot and give it a stir.",
+        "Transfer noodles and soup into a large bowl for serving. Feel free to add any other toppings such as fish balls, dumplings, etc."
+      ],
+      "source": "SOURCE",
+      "enabled": false
+    },
+    {
+      "id": 0,
       "url": "sweet-and-sour-sauce",
       "name": "Sweet and Sour Sauce",
       "description": "DESCRIPTION",
