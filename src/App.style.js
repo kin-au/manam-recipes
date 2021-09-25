@@ -14,6 +14,7 @@ const Container = styled.div`
   min-height: 100vh;
   background-color: ${(props) => props.theme.primaryBackground};
   color: ${(props) => props.theme.primaryText};
+  transition: 0.2s;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

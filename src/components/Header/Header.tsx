@@ -18,8 +18,8 @@ const Header = (props: HeaderProps) => {
   const showingRecipes = useLocation().pathname === "/recipes";
   return (
     <SC.Header>
-      <h1>Manam Recipes</h1>
       <ThemeToggle theme={theme} setTheme={setTheme} />
+      <h1>Manam Recipes</h1>
       <Navbar />
       {!showingRecipes ? null : (
         <RecipeFinder

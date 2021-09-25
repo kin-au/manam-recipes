@@ -7,6 +7,7 @@ const RecipeCard = styled.div`
   box-shadow: 0.125rem 0.125rem 0.5rem #00000059;
   background-color: ${(props) => props.theme.secondaryBackground};
   color: ${(props) => props.theme.secondaryText};
+  transition: 0.2s;
   display: flex;
   flex-direction: column;
 `;
