@@ -10,7 +10,7 @@ const RecipeCard = (props: RecipeCardProps) => {
       to={`/recipes/${recipe.url}`}
       onClick={() => setSelectedRecipe(recipe)}
     >
-      <SC.RecipeCard key={recipe.id}>
+      <SC.RecipeCard>
         <SC.CardHeader>{recipe.name}</SC.CardHeader>
         <SC.CardBody>
           <SC.RecipeText>

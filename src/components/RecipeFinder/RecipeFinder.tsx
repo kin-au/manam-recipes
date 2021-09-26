@@ -80,7 +80,11 @@ const RecipeFinder = (props: RecipeFinderProps) => {
             >
               <option value="">All cuisines</option>
               {cuisineList(allRecipes).map((cuisine) => {
-                return <option value={cuisine}>{cuisine}</option>;
+                return (
+                  <option key={`cuisine-${cuisine}`} value={cuisine}>
+                    {cuisine}
+                  </option>
+                );
               })}
             </select>
           </SC.FieldInput>
@@ -101,7 +105,11 @@ const RecipeFinder = (props: RecipeFinderProps) => {
             >
               <option value="">All types</option>
               {typeList(allRecipes).map((type) => {
-                return <option value={type}>{type}</option>;
+                return (
+                  <option key={`type-${type}`} value={type}>
+                    {type}
+                  </option>
+                );
               })}
             </select>
           </SC.FieldInput>

@@ -14,7 +14,11 @@ const Recipes = (props: RecipesProps) => {
       ) : (
         showRecipes.map((recipe: RecipeData) => {
           return (
-            <RecipeCard recipe={recipe} setSelectedRecipe={setSelectedRecipe} />
+            <RecipeCard
+              key={recipe.id}
+              recipe={recipe}
+              setSelectedRecipe={setSelectedRecipe}
+            />
           );
         })
       )}

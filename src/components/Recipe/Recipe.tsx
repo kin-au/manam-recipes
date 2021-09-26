@@ -12,7 +12,7 @@ const Recipe = (props: RecipeProps) => {
   const { recipe } = props;
 
   const ingredientsList = (ingredients: string[]) => {
-    return ingredients.map((ingredient: string) => {
+    return ingredients.map((ingredient: string, index: number) => {
       if (ingredient.match(REGEX_BOLD_OPEN)) {
         ingredient = ingredient.replace(REGEX_BOLD_OPEN, "<strong>");
         ingredient = ingredient.replace(REGEX_BOLD_CLOSE, "</strong>");
@@ -20,6 +20,7 @@ const Recipe = (props: RecipeProps) => {
       return (
         <>
           <li
+            key={`ingredient-${index}`}
             dangerouslySetInnerHTML={{
               __html: DOMPurify.sanitize(ingredient),
             }}
@@ -37,6 +38,7 @@ const Recipe = (props: RecipeProps) => {
       }
       return (
         <li
+          key={`step-${index}`}
           dangerouslySetInnerHTML={{
             __html: DOMPurify.sanitize(step),
           }}
