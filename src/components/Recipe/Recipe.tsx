@@ -3,19 +3,16 @@ import { Link } from "react-router-dom";
 import * as SC from "./Recipe.style.js";
 import { RecipeProps } from "./types";
 import DOMPurify from "dompurify";
-import {
-  REGEX_BOLD_OPEN,
-  REGEX_BOLD_CLOSE,
-} from "../../utils/consts";
+import { REGEX } from "../../utils/consts";
 
 const Recipe = (props: RecipeProps) => {
   const { recipe } = props;
 
   const ingredientsList = (ingredients: string[]) => {
     return ingredients.map((ingredient: string, index: number) => {
-      if (ingredient.match(REGEX_BOLD_OPEN)) {
-        ingredient = ingredient.replace(REGEX_BOLD_OPEN, "<strong>");
-        ingredient = ingredient.replace(REGEX_BOLD_CLOSE, "</strong>");
+      if (ingredient.match(REGEX.BOLD_OPEN)) {
+        ingredient = ingredient.replace(REGEX.BOLD_OPEN, "<strong>");
+        ingredient = ingredient.replace(REGEX.BOLD_CLOSE, "</strong>");
       }
       return (
         <>
@@ -32,9 +29,9 @@ const Recipe = (props: RecipeProps) => {
 
   const recipeSteps = (steps: string[]) => {
     return steps.map((step: string, index: number) => {
-      if (step.match(REGEX_BOLD_OPEN)) {
-        step = step.replace(REGEX_BOLD_OPEN, "<strong>");
-        step = step.replace(REGEX_BOLD_CLOSE, "</strong>");
+      if (step.match(REGEX.BOLD_OPEN)) {
+        step = step.replace(REGEX.BOLD_OPEN, "<strong>");
+        step = step.replace(REGEX.BOLD_CLOSE, "</strong>");
       }
       return (
         <li
