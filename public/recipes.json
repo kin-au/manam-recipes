@@ -792,6 +792,51 @@
       "steps": ["STEP 1", "STEP 2", "STEP 3"],
       "source": "SOURCE",
       "enabled": true
+    },
+    {
+      "id": 35,
+      "url": "pei-pa-tofu",
+      "name": "Pei Pa Tofu",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "Chinese",
+      "type": "Meal",
+      "servings": "2",
+      "time": 45,
+      "ingredients": [
+        "1 cup Rice",
+        "500g tofu",
+        "6 shiitake mushrooms",
+        "100g prawns, or 20g dried shrimps",
+        "1 spring onion, thinly sliced",
+        "2 cloves garlic (finely chopped)",
+        "1 egg, whisked",
+        "1tsp sesame oil",
+        "1/4tsp / 1g salt",
+        "1/4tsp / 1g white pepper",
+        "3tbsp / 20g cornflour",
+        "1tbsp / 14g oyster sauce",
+        "1/2tbsp / 4g light soy sauce"
+      ],
+      "steps": [
+        "Take one cup of uncooked rice, and wash with cold water. Do this three times to remove impurities.",
+        "Wash 6 shiitake mushrooms and 100g prawns, or 20g dried shrimps",
+        "Soak shiitake mushrooms and dried shrimps in boiling water for 10mins. Prawns do not need soaking",
+        "Retain the soaking water, dice the shiitake mushrooms and prawns into small pieces",
+        "Press the 500g tofu to remove excess water",
+        "Mix together the prawns, mushrooms, 1 spring onions, and 2 cloves garlic in a large mixing bowl",
+        "Add 1tsp sesame oil, 1/4tsp / 1g salt, and 1/4tsp / 1g white pepper to the bowl",
+        "Add the tofu to the bowl, pressing it to create a paste",
+        "Add 3tbsp / 20g cornflour and 1 egg, incorporating well so the mix holds together",
+        "Heat up some oil in a non stick frying pan",
+        "Using your hands, or two large spoons, scoop together some tofu and place into the pan",
+        "Fry for a few minutes on medium heat, and turn to brown the other side",
+        "To make the sauce, add 1tbsp / 14g oyster sauce, 1/2tbsp / 4g light soy sauce, and the shiitake soaking water to a saucepan",
+        "Bring the saucepan to the oil",
+        "Once all the tofu is cooked, serve the rice and tofu with sauce"
+      ],
+      "source": "SOURCE",
+      "enabled": true
     }
   ]
 }
