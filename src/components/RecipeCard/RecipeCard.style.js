@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const RecipeCard = styled.div`
-  margin: 0.75rem 0;
   padding: 0.75rem;
   box-shadow: 0.125rem 0.125rem 0.5rem #00000059;
   background-color: ${(props) => props.theme.secondaryBackground};
@@ -39,6 +38,7 @@ const SubHeader = styled.span`
 `;
 
 const StyledLink = styled(Link)`
+  margin: 0.75rem 0;
   color: black;
   text-decoration: none;
 `;

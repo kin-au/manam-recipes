@@ -11,7 +11,7 @@ const ThemeToggle = (props: ThemeToggleProps) => {
         setTheme(theme === "light" ? "dark" : "light");
       }}
     >
-      {theme === "light" ? "Dark" : "Light"} theme
+      {theme === "light" ? "Dark" : "Light"} mode
     </SC.ToggleButton>
   );
 };

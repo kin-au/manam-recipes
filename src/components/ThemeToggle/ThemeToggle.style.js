@@ -13,6 +13,10 @@ const ToggleButton = styled.button`
   transition: 0.2s;
   border: none;
   border-radius: 1rem;
+  :hover {
+    background-color: ${(props) => props.theme.secondaryBackground};
+    cursor: pointer;
+  }
 `;
 
 export { ToggleButton };
