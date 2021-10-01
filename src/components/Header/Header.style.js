@@ -16,6 +16,11 @@ const Header = styled.header`
   h1 {
     font-size: 2rem;
   }
+
+  a {
+    text-decoration: none;
+    color: ${(props) => props.theme.primaryText};
+  }
 `;
 
 export { Header };

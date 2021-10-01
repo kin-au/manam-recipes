@@ -4,7 +4,7 @@ import { HeaderProps } from "./types";
 import Navbar from "../Navbar/Navbar";
 import RecipeFinder from "../RecipeFinder/RecipeFinder";
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 const Header = (props: HeaderProps) => {
   const {
@@ -19,7 +19,9 @@ const Header = (props: HeaderProps) => {
   return (
     <SC.Header>
       <ThemeToggle theme={theme} setTheme={setTheme} />
-      <h1>Manam Recipes</h1>
+      <Link to="/">
+        <h1>Manam Recipes</h1>
+      </Link>
       <Navbar />
       {!showingRecipes ? null : (
         <RecipeFinder
