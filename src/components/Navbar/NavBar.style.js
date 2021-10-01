@@ -4,7 +4,13 @@ import ListItemText from "@material-ui/core/ListItemText";
 import { Link } from "react-router-dom";
 
 const StyledIconButton = styled(IconButton)`
-  width: 100vw;
+  && {
+    width: 90vw;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 6px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+  }
 `;
 
 const MenuHeader = styled.div`
