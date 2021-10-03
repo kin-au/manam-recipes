@@ -9,7 +9,7 @@ const StyledIconButton = styled(IconButton)`
     border-radius: 5px;
     padding: 6px;
     margin: 6px;
-    border: 2px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid #0000001a;
   }
 `;
 
