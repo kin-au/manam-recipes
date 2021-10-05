@@ -19,7 +19,7 @@ const Header = styled.header`
 
   a {
     text-decoration: none;
-    color: ${(props) => props.theme.primaryText};
+    color: #403d39;
   }
 `;
 
