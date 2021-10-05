@@ -616,9 +616,27 @@
       "cuisine": "Chinese",
       "type": "TYPE",
       "servings": "PORTIONS",
-      "time": 0,
-      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
-      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "time": 30,
+      "ingredients": [
+        "1 cup white rice",
+        "300g chicken thigh (alternatively, breast), diced",
+        "QUANTITY cashew nuts",
+        "200g baby corn, chopped",
+        "200 straw mushrooms, halved",
+        "2 small onions, chopped",
+        "1 clove garlic, chopped",
+        "QUANTITY oyster sauce"
+      ],
+      "steps": [
+        "Take one cup of uncooked rice, and wash twice with cold water to remove impurities, then cook in a rice cooker",
+        "Heat oil in a frying pan on medium heat, and add 2 small onions and 1 clove garlic",
+        "Add in 300g chicken thigh to the pan",
+        "When the chicken is half cooked, add 200g baby corn and 200g straw mushrooms",
+        "After a few minutes, lower the heat and add QUANTITY oyster sauce, mixing well with all the ingredients",
+        "Add a little soy sauce and/or salt to taste",
+        "When the chicken is cooked, take the pan off the heat, and add cashew nuts",
+        "Serve with the rice"
+      ],
       "source": "SOURCE",
       "enabled": true
     },
