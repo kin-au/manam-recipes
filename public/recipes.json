@@ -877,6 +877,47 @@
       ],
       "source": "SOURCE",
       "enabled": true
+    },
+    {
+      "id": 36,
+      "url": "pesto-crusted-cod",
+      "name": "Pesto crusted cod",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "PORTIONS",
+      "time": 40,
+      "ingredients": [
+        "1 shallot, thinly sliced",
+        "30g unsalted butter",
+        "1 clove garlic, finely chopped",
+        "QUANTIY cider vinegar",
+        "QUANTITY vegetable stock",
+        "100ml water",
+        "4 carrots, cut into 1cm wide sticks",
+        "QUANTIY thyme",
+        "2 cod fillets",
+        "2 heaped tbsp / 75g pesto",
+        "25g panko breakcrumbs",
+        "1 tbsp vegetable oil",
+        "450g potatoes, chopped"
+      ],
+      "steps": [
+        "Preheat oven to 200 deg",
+        "Add potatoes and a pinch of salt to a saucepan of boiling water",
+        "Place the carrots on a baking tray, season with salt, pepper and thyme, and a drizzle of oil",
+        "Toss the pan to evenly coat the carrots, then roast for 20 mins",
+        "Mix 25g panko breakcrumbs, 2 heaped tbsp / 75g pesto, and 1 tbsp vegetable oil in a bowl",
+        "Drizzle some oil onto a baking tray lined with foil. With some kitchen towel, pat the cod dry and place on the tray. Press the breadcrumb mix evenly onto the top of the fish",
+        "Cook in the oven for around 10 mins",
+        "To make the sauce, heat some oil in a pan on medium heat. Add 1 shallot, fry for a few minutes. Add 1 clove garlic, cooking for another minute. Add QUANTITY cider vinegar, cooking until it's evaporated",
+        "Add 100ml water and QUANTITY vegetable stock to the sauce, bring to the boil then simmer until reduced by half. Add 30g unsalted butter, stirring until melted in, then remove from the heat",
+        "Drain the potatoes. Add butter, salt and pepper to taste, and mash until smooth",
+        "Serve the cod, mash potatoes and roasted carrots, with a drizzle of sauce"
+      ],
+      "source": "HelloFresh",
+      "enabled": true
     }
   ]
 }
