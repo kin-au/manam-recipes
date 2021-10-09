@@ -6,7 +6,7 @@ import { AllRecipeData, FinderFields, RecipeData, Themes } from "./types";
 import Recipes from "./pages/Recipes/Recipes";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
@@ -33,9 +33,19 @@ const App = () => {
       .then((enabledRecipes: AllRecipeData) => setAllRecipes(enabledRecipes));
   }, []);
 
+  const ScrollToTop = () => {
+    const { pathname } = useLocation();
+    React.useEffect(() => {
+      window.scrollTo(0, 0);
+    }, [pathname]);
+
+    return null;
+  };
+
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
           <SC.GlobalStyle />
           <SC.Container>
