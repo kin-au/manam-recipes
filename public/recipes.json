@@ -277,28 +277,28 @@
       "servings": "4",
       "time": 45,
       "ingredients": [
-        "Chicken breast",
-        "Cornflour",
-        "Red onions (sliced)",
-        "Peppers, cut into thick strips",
-        "Mushrooms, cut into thick slices",
-        "Grated cheese",
-        "Shredded lettuce",
-        "Smoked paprika",
-        "Ground coriander",
-        "Table salt",
-        "Ground black pepper",
-        "Cooking oil"
+        "700g Chicken breast, diced",
+        "250g red kidney beans",
+        "2 red onions, diced",
+        "2 peppers, thick strips",
+        "350g mushrooms, thick slices",
+        "QUANTITY smoked paprika",
+        "QUANTITY ground coriander",
+        "QUANTITY ground cumin",
+        "QUANTITY chilli flakes",
+        "QUANTITY grated cheese",
+        "QUANTITY shredded lettuce",
+        "QUANTITY tortillas"
       ],
       "steps": [
-        "Dice the chicken into large chunks and cover with cornflour",
-        "Heat some oil in a large, deep, non-stick frying pan",
-        "Pan fry the chicken until half cooked - edges should be cooked and middle a little raw. Place into a bowl and place to one side",
-        "Add some oil to the pan at medium to high heat. Throw in the red onions and peppers, tossing gently.",
-        "Once half cooked, add the chicken, add smoked paprika and smoked corinander. Mix thoroguhly amongst the chicken and ingredients.",
-        "Add the mushrooms and stir fry in the pan until everything is cooked. Taste test and add salt and pepper if needed.",
-        "Put a separate large pan over low heat, and place the flour tortillas to heat them up. Alternatively, microwave for 10-20 seconds per wrap.",
-        "Immediately sprinkle on the grated cheese and add your filling with lettuce, so that the tortilla wrap is still soft enough to wrap"
+        "Give the QUANTITY chicken breast a light coating of cornflour",
+        "Heat some oil in a large non-stick frying pan, and fry QUANTIY red onions",
+        "As the onions cook, add the chicken. Fry until the chicken is half cooked, then throw in 250g red kidney beans, QUANTITY mushrooms and QUANTITY peppers",
+        "Now add QUANTITY smoked paprika, QUANTITY ground coriander, QUANTITY ground cumin, and QUANTITY chilli flakes",
+        "Keep stirring, thoroughly mixing all the ingredients and spices",
+        "Add a generous amount of black pepper, and salt to taste",
+        "Once the ingredients are fully cooked, heat the tortillas over low heat on a large flat pan, or alternatively in a microwave",
+        "Add the filling to the wraps, topping with your desired amount of grated cheese and shredded lettuce"
       ],
       "source": "SOURCE",
       "enabled": true
@@ -881,7 +881,7 @@
         "1/2tbsp / 4g light soy sauce"
       ],
       "steps": [
-        "Take one cup of uncooked rice, and wash with cold water. Do this three times to remove impurities.",
+        "Take one cup of uncooked rice, and wash twice with cold water to remove impurities, then cook in a rice cooker",
         "Wash 6 shiitake mushrooms and 100g prawns, or 20g dried shrimps",
         "Soak shiitake mushrooms and dried shrimps in boiling water for 10mins. Prawns do not need soaking",
         "Retain the soaking water, dice the shiitake mushrooms and prawns into small pieces",
