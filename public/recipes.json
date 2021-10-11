@@ -337,14 +337,30 @@
       "id": 13,
       "url": "five-spice-roast-chicken",
       "name": "Five spice roast chicken",
-      "description": "DESCRIPTION",
+      "description": "Crispy oven roasted five spice chicken with a honey glaze",
       "image": "",
       "cuisine": "Chinese",
-      "type": "TYPE",
-      "servings": "PORTIONS",
-      "time": 0,
-      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
-      "steps": ["STEP 1", "STEP 2", "STEP 3"],
+      "type": "Meal",
+      "servings": "2",
+      "time": 30,
+      "ingredients": [
+        "1 cup rice",
+        "1 kg chicken thighs",
+        "Chinese five spice",
+        "QUANTITY honey"
+      ],
+      "steps": [
+        "Take one cup of uncooked rice, and wash twice with cold water to remove impurities, then cook in a rice cooker",
+        "Line a large baking tray with foil and set aside. Preheat the oven to 180 deg",
+        "Clean and prep 1kg chicken thighs - remove any excess skin, fat, and hairs",
+        "Generously apply the Chinese five spice, coating all of the chicken",
+        "Place the thighs on the baking tray, skin side up, and add a sprinkle of sea salt",
+        "Cook the chicken in the oven for 15 mins",
+        "Mix QUANTITY honey with a little warm water",
+        "Remove the chicken from the oven, baste with the juices in the tray, then brush the honey onto the skin",
+        "Oven the chicken for a few more minutes until fully cooked",
+        "Plate up roast chicken with a side of rice and veggies of your choice. The flavoursome juices in the tray make a great sauce!, "
+      ],
       "source": "SOURCE",
       "enabled": true
     },
@@ -507,7 +523,7 @@
         "DOUBLE CHECK QUANTITY 1 tbsp sesame oil"
       ],
       "steps": [
-        "Take one cup of uncooked rice, and wash with cold water. Do this three times to remove impurities.",
+        "Take one cup of uncooked rice, and wash twice with cold water to remove impurities, then cook in a rice cooker",
         "Place rice into the rice cooker and fill to the line corresponding to 1 cup. Alternatively, use the finger trick.",
         "Switch on the rice cooker and set the rice to cook.",
         "Fill a large saucepan with 3 litres of cold water. Bring to the boil.",
