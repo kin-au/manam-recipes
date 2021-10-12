@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 const StyledIconButton = styled(IconButton)`
   && {
     width: 90vw;
+    max-width: 30rem;
     border-radius: 5px;
     padding: 6px;
     margin: 6px;
