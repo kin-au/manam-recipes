@@ -345,7 +345,7 @@
       "time": 30,
       "ingredients": [
         "1 cup rice",
-        "1 kg chicken thighs",
+        "1kg chicken thighs",
         "Chinese five spice",
         "QUANTITY honey"
       ],
@@ -767,11 +767,30 @@
       "image": "",
       "cuisine": "CUISINE",
       "type": "TYPE",
-      "servings": "PORTIONS",
-      "time": 0,
-      "ingredients": ["INGREDIENT 1", "INGREDIENT 2", "INGREDIENT 3"],
-      "steps": ["STEP 1", "STEP 2", "STEP 3"],
-      "source": "SOURCE",
+      "servings": "2",
+      "time": 30,
+      "ingredients": [
+        "800g chicken thighs",
+        "1 carrot, diced",
+        "1 leek, thinly sliced",
+        "QUANTITY red chilli, finely chopped",
+        "QUANTITY thyme, stalk removed",
+        "QUANTITY sage, stalk removed, roughly chopped",
+        "QUANTITY chicken stock",
+        "250g lentils",
+        "100g crème fraîche"
+      ],
+      "steps": [
+        "Heat some oil in a frying large pan on medium heat",
+        "Add 1 carrot, 1 leak, QUANTITY red chilli, QUANTITY thyme, and QUANTITY sage. On a low heat, allow the vegetables to simmer and soften for 5 minutes",
+        "On a separate frying pan, heat some oil on medium high heat - once hot, place the chicken skin on side down",
+        "After around 5 minutes, when the skin is crispy, turn and cook for another 5 minutes",
+        "Add 250g lentils to the vegetables, add a little water, QUANTITY chicken stock and 100g crème fraîche",
+        "Stir the ingredients, bring to the boil, then remove from heat",
+        "Add salt, pepper, and more red chilli to taste",
+        "Serve the creamy lentils on a plate, and top with the pan fried chicken"
+      ],
+      "source": "HelloFresh",
       "enabled": true
     },
     {
