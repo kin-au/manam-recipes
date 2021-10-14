@@ -161,7 +161,7 @@
       "image": "",
       "cuisine": "Italian",
       "type": "Meal",
-      "servings": "2 servings",
+      "servings": "2",
       "time": 20,
       "ingredients": [
         "3 eggs",
@@ -197,7 +197,7 @@
       "image": "",
       "cuisine": "Korean",
       "type": "Meal",
-      "servings": "PORTIONS",
+      "servings": "1",
       "time": 20,
       "ingredients": [
         "230g chopped kimchi",
@@ -225,7 +225,7 @@
       "image": "",
       "cuisine": "Korean",
       "type": "Meal",
-      "servings": "PORTIONS",
+      "servings": "2",
       "time": 45,
       "ingredients": [
         "3 tbsp gochujang (Korean chilli paste)",
@@ -653,7 +653,7 @@
       "image": "",
       "cuisine": "Chinese",
       "type": "TYPE",
-      "servings": "PORTIONS",
+      "servings": "2",
       "time": 30,
       "ingredients": [
         "1 cup white rice",
@@ -728,7 +728,7 @@
       "image": "",
       "cuisine": "Morroccan",
       "type": "TYPE",
-      "servings": "2 portions",
+      "servings": "2",
       "time": 0,
       "ingredients": [
         "250g minced beef",
@@ -943,7 +943,7 @@
       "image": "",
       "cuisine": "CUISINE",
       "type": "TYPE",
-      "servings": "PORTIONS",
+      "servings": "2",
       "time": 40,
       "ingredients": [
         "1 shallot, thinly sliced",
