@@ -975,6 +975,42 @@
       ],
       "source": "HelloFresh",
       "enabled": true
+    },
+    {
+      "id": 37,
+      "url": "prawn-butternut-squash-dahl",
+      "name": "Prawn and butternut squash dahl",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "CUISINE",
+      "type": "TYPE",
+      "servings": "2",
+      "time": 40,
+      "ingredients": [
+        "1 butternut squash, peeled and diced into 1cm squares",
+        "1 onion, thinly sliced",
+        "1 clove garlic, finely chopped",
+        "1 spring onion, sliced",
+        "100g red split lentils",
+        "150g king prawns",
+        "QUANTITY vegetable stock",
+        "QUANTITY Korma curry",
+        "200ml coconut milk",
+        "250ml water",
+        "Optional: pitta bread"
+      ],
+      "steps": [
+        "Preheat oven to 200deg. Toss the diced butternut squash in oil, salt and pepper. Roast for 20mins.",
+        "Heat some oil in a frying pan over medium heat. Add the onion and cook for a few minutes",
+        "Add QUANTITY Korma curry and 1 clove garlic to the pan, stirring for 1min",
+        "Add 250ml water, QUANTITY vegetable stock, 200ml coconut milk, and 100g red split lentils",
+        "Bring to the boil, then lower the heat and simmer the ingredients in the frying pan. Cover with a lid until the lentils are cooked. Ensure to stir frequently to prevent the lentils from sticking and burning",
+        "Once the lentils are soft, add the prawns and cook for a few minutes until done. If the dahl is too thick in consistency, add a splash of water",
+        "Stir 2/3 of the butternut squash into the dahl",
+        "Plate up the dahl into bowls, then top with the remaining butter squash and the spring onions. Serve with some pitta bread!"
+      ],
+      "source": "HelloFresh",
+      "enabled": true
     }
   ]
 }
