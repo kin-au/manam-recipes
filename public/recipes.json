@@ -1011,6 +1011,34 @@
       ],
       "source": "HelloFresh",
       "enabled": true
+    },
+    {
+      "id": 38,
+      "url": "korean-bean-sprout-salad",
+      "name": "Korean bean sprout salad",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "Korean",
+      "type": "Side dish",
+      "servings": "4",
+      "time": 10,
+      "ingredients": [
+        "400g bean sprouts",
+        "1 spring onion (finely chopped)",
+        "1 clove garlic (finely chopped)",
+        "1 tbsp sesame oil",
+        "1/2 tsp sea salt",
+        "1 tsp sesame seeds"
+      ],
+      "steps": [
+        "To cook the beansprouts, heat water in a pot. When boiling, add 400g bean sprouts to the pot",
+        "After 1 minute, drain the water and run cold water on the bean sprouts to prevent them softening too much",
+        "Squeeze the beansprouts in your hands to remove excess water",
+        "Place the beansprouts in a bowl, add 1 spring onion, 1 clove garlic, 1 tbsp sesame oil, and 1/2 tsp sea salt, mixing all the ingredients well",
+        "Sprinkle 1 tsp sesame seeds on top, and serve"
+      ],
+      "source": "https://mykoreankitchen.com/korean-style-seasoned-mung-bean-sprouts-salad-sukju-namul-muchim",
+      "enabled": false
     }
   ]
 }
