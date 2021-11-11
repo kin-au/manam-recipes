@@ -1078,6 +1078,39 @@
       ],
       "source": "SOURCE",
       "enabled": true
+    },
+    {
+      "id": 40,
+      "url": "indonesian-mackerel-fried-rice",
+      "name": "Indonesian mackerel fried rice",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "Indonesian",
+      "type": "Meal",
+      "servings": "2",
+      "time": 30,
+      "ingredients": [
+        "1 cup rice",
+        "2 smoked mackerel fillets, flaked",
+        "1 red onion, thinly sliced",
+        "1 clove garlic, finely chopped",
+        "2 eggs, lightly beaten",
+        "1 tbsp red curry paste",
+        "QUANTITY peas",
+        "QUANTITY sweetcorn",
+        "1 spring onion, sliced"
+      ],
+      "steps": [
+        "Take one cup of uncooked rice, and wash twice with cold water to remove impurities, then cook in a rice cooker",
+        "Heat some oil in a large frying pan. Once hot, add 2 eggs, breaking it up as they cook",
+        "When the eggs are just cooked, remove and set aside in a bowl",
+        "Heat a little oil in the frying pan to fry 1 clove garlic and 1 red onion",
+        "Add 1 tbsp red curry paste and the rice to the pan, thoroughly mixing to incorporate the curry paste. Continue to stir fry on high heat for 2 mins",
+        "Throw in QUANTITY peas, QUANTITY sweetcorn, 1 spring onion, 2 smoked mackerel fillets, and the eggs from earlier. Add salt or soy sauce to taste",
+        "Divide up the fried rice into bowls and serve"
+      ],
+      "source": "SOURCE",
+      "enabled": true
     }
   ]
 }
