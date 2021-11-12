@@ -1111,6 +1111,44 @@
       ],
       "source": "SOURCE",
       "enabled": true
+    },
+    {
+      "id": 41,
+      "url": "minced-pork-pappardelle",
+      "name": "Minced pork pappardelle",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "Italian",
+      "type": "Meal",
+      "servings": "2",
+      "time": 30,
+      "ingredients": [
+        "250g minced pork",
+        "1 red onion, thinly sliced",
+        "1 clove garlic, finely chopped",
+        "400g chopped tomatoes",
+        "1/2 tsp sugar",
+        "QUANTITY Italian mixed herbs",
+        "200g pappardelle",
+        "15g Worcester sauce",
+        "50ml water",
+        "30g red wine",
+        "100g spinach",
+        "40g grated cheese"
+      ],
+      "steps": [
+        "Heat a large saucepan of water. When boiling, add 200g pappardelle and cook for around 10 mins, until al dente. Drain and run cold water through the pasta",
+        "In a large frying pan, heat some oil and add the pork. Cook the pork until browned, breaking it apart as it cooks",
+        "Stir in 1 red onion until softened, then add 1 clove garlic and QUANTITY Italian mixed herbs",
+        "Now add the Worcester sauce to the pork and cook until evaporated",
+        "Stir in the 400g chopped tomaties, 30g red wine, 50ml water, and 1/2 tsp sugar",
+        "Bring the pan to a boil and stir the ingredients together. Simmer for around 5 mins until the sauce is thick",
+        "Add 100g spinach, stirring it in until wilted, then add 20g grated cheese",
+        "Combine the pappardelle with the sauce in the pan. Season with salt and pepper to taste",
+        "Serve the minced pork papperdelle in bowls, topped with the remaining 20g grated cheese"
+      ],
+      "source": "HelloFresh",
+      "enabled": true
     }
   ]
 }
