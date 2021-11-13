@@ -1149,6 +1149,49 @@
       ],
       "source": "HelloFresh",
       "enabled": true
+    },
+    {
+      "id": 42,
+      "url": "mexican-beef-wedges",
+      "name": "Mexican beef wedges",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "Mexican",
+      "type": "Meal",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": [
+        "500g potatoes, cut into wedges",
+        "1 pepper, julienned",
+        "1 carrot, coarsely grated",
+        "1 clove garlic, finely chopped",
+        "QUANTITY smoked paprika",
+        "QUANTITY ground coriander",
+        "QUANTITY ground cumin",
+        "QUANTITY chilli flakes",
+        "250g passata",
+        "250g minced beef",
+        "150ml water",
+        "10g beef stock",
+        "250g black beans",
+        "60g grated cheese",
+        "1 spring onion, thinly sliced",
+        "1/2 lime"
+      ],
+      "steps": [
+        "Preheat the oven to 200 deg",
+        "Place 500g potatoes in a large bowl. Drizzle with oil, add salt and pepper to taste, then toss to coat the potatoes. Spread out the wedges on a large baking tray, and roast for 20 mins",
+        "Add oil to a frying pan on medium-high heat. Add 250g minced beef, cooking it until browned, breaking it apart as it cooks",
+        "Add 1 pepper, 1 carrot, 1 clove garlic. Add QUANTITY smoked paprika, QUANTITY ground coriander, QUANTITY ground cumin, QUANTITY chilli flakes",
+        "Cook for 2 mins, then add 250g passata, 150ml water and 10g beef stock",
+        "Bring to the boil, then reduce the heat and simmer until the sauce has thickened, stirring occasionally",
+        "Add 250g black beans to the frying pan, stir in, then season with salt and pepper to taste",
+        "After taking the wedges out of the oven, put the grill on high",
+        "Spoon the beef mince on top of the wedges, sprinkle on 60g grated cheese, and grill for around 2 mins, until golden in colour",
+        "When done, sprinkle on 1 spring onion and serve with the lime wedge for squeezing"
+      ],
+      "source": "HelloFresh",
+      "enabled": true
     }
   ]
 }
