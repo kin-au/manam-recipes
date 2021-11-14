@@ -282,10 +282,7 @@
         "2 red onions, diced",
         "2 peppers, thick strips",
         "350g mushrooms, thick slices",
-        "QUANTITY smoked paprika",
-        "QUANTITY ground coriander",
-        "QUANTITY ground cumin",
-        "QUANTITY chilli flakes",
+        "QUANTITY Mexican spice mix",
         "QUANTITY grated cheese",
         "QUANTITY shredded lettuce",
         "QUANTITY tortillas"
@@ -294,8 +291,7 @@
         "Give the QUANTITY chicken breast a light coating of cornflour",
         "Heat some oil in a large non-stick frying pan, and fry QUANTIY red onions",
         "As the onions cook, add the chicken. Fry until the chicken is half cooked, then throw in 250g red kidney beans, QUANTITY mushrooms and QUANTITY peppers",
-        "Now add QUANTITY smoked paprika, QUANTITY ground coriander, QUANTITY ground cumin, and QUANTITY chilli flakes",
-        "Keep stirring, thoroughly mixing all the ingredients and spices",
+        "Now add QUANTITY Mexican spice mix. Keep stirring, thoroughly mixing all the ingredients and spices",
         "Add a generous amount of black pepper, and salt to taste",
         "Once the ingredients are fully cooked, heat the tortillas over low heat on a large flat pan, or alternatively in a microwave",
         "Add the filling to the wraps, topping with your desired amount of grated cheese and shredded lettuce"
@@ -1165,10 +1161,7 @@
         "1 pepper, julienned",
         "1 carrot, coarsely grated",
         "1 clove garlic, finely chopped",
-        "QUANTITY smoked paprika",
-        "QUANTITY ground coriander",
-        "QUANTITY ground cumin",
-        "QUANTITY chilli flakes",
+        "QUANTITY Mexican spice mix",
         "250g passata",
         "250g minced beef",
         "150ml water",
@@ -1182,7 +1175,7 @@
         "Preheat the oven to 200 deg",
         "Place 500g potatoes in a large bowl. Drizzle with oil, add salt and pepper to taste, then toss to coat the potatoes. Spread out the wedges on a large baking tray, and roast for 20 mins",
         "Add oil to a frying pan on medium-high heat. Add 250g minced beef, cooking it until browned, breaking it apart as it cooks",
-        "Add 1 pepper, 1 carrot, 1 clove garlic. Add QUANTITY smoked paprika, QUANTITY ground coriander, QUANTITY ground cumin, QUANTITY chilli flakes",
+        "Add 1 pepper, 1 carrot, 1 clove garlic, and QUANTITY Mexican spice mis",
         "Cook for 2 mins, then add 250g passata, 150ml water and 10g beef stock",
         "Bring to the boil, then reduce the heat and simmer until the sauce has thickened, stirring occasionally",
         "Add 250g black beans to the frying pan, stir in, then season with salt and pepper to taste",
@@ -1191,6 +1184,29 @@
         "When done, sprinkle on 1 spring onion and serve with the lime wedge for squeezing"
       ],
       "source": "HelloFresh",
+      "enabled": true
+    },
+    {
+      "id": 43,
+      "url": "mexican-spice-mix",
+      "name": "Mexican spice mix",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "Mexican",
+      "type": "Spice",
+      "servings": "PORTIONS",
+      "time": 5,
+      "ingredients": [
+        "QUANTITY smoked paprika",
+        "QUANTITY ground coriander",
+        "QUANTITY ground cumin",
+        "QUANTITY chilli flakes"
+      ],
+      "steps": [
+        "Combine all of the ingredients",
+        "Store in an airtight container, in a cool dark place for up to 1 year"
+      ],
+      "source": "",
       "enabled": true
     }
   ]
