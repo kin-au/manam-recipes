@@ -1208,6 +1208,42 @@
       ],
       "source": "",
       "enabled": true
+    },
+    {
+      "id": 44,
+      "url": "serrano-ham-and-butternut-linguine",
+      "name": "Serrano ham and butternut linguine",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "CUISINE",
+      "type": "Meal",
+      "servings": "2",
+      "time": 0,
+      "ingredients": [
+        "1 butternut squash, diced into 1cm cubes",
+        "1 red onion, thinly sliced",
+        "80g tenderstem broccoli",
+        "1 clove garlic, finely chopped",
+        "4 slices serrano ham, hand torn into large pieces",
+        "200g linguine",
+        "125ml water",
+        "10g chicken stock",
+        "150g crème fraîche"
+      ],
+      "steps": [
+        "Preheat the oven to 200 deg",
+        "Place 1 butternut squash in a large bowl. Drizzle with oil, add salt and pepper to taste, then toss to coat. Spread out the butter squash on a large baking tray, and roast for 20 mins",
+        "Boil water in a large saucepan to cook 200g linguine until al dente. When cooked, drain and run cold water through it",
+        "Heat some oil on medium-high heat in a large frying pan. Cook 4 slices serrano ham briefly on each side, and put aside on a plate",
+        "Add a little more oil to the pan and, when hot, add 1 red onion",
+        "After cooking for 1 min, add 80g tenderstem broccoli and a splash of water. Stir fry until tender",
+        "Stir in 1 clove garlic to the frying pan, then add 125ml water and 10g chicken stock",
+        "Pour in 150g crème fraîche and serrano ham. Bring to the boil, then remove from heat",
+        "Add the pasta and roasted butternut squash to the frying pan, mixing everything together",
+        "Season with salt and pepper to taste, then serve"
+      ],
+      "source": "HelloFresh",
+      "enabled": true
     }
   ]
 }
