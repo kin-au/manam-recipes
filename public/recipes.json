@@ -1244,6 +1244,45 @@
       ],
       "source": "HelloFresh",
       "enabled": true
+    },
+    {
+      "id": 45,
+      "url": "chermoula-spiced-lamb-and-rice",
+      "name": "Chermoula spiced lamb and rice",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "CUISINE",
+      "type": "Meal",
+      "servings": "2",
+      "time": 30,
+      "ingredients": [
+        "1 cup rice",
+        "250g lamb mince",
+        "1 red onion, thinly sliced",
+        "2 cloves garlic, finely chopped",
+        "QUANTITY harissa paste",
+        "QUANTITY chermoula spice",
+        "QUANTITY tomato purée",
+        "QUANTITY chicken stock",
+        "100ml water",
+        "75g Greek style yoghurt",
+        "1/2 cucumber, diced",
+        "1 bunch mint leaves, roughly chopped"
+      ],
+      "steps": [
+        "Take one cup of uncooked rice, and wash twice with cold water to remove impurities, then cook in a rice cooker",
+        "Heat some oil in a large frying pan on medium-high heat",
+        "Add 250g lamb mince, breaking it up as it cooks",
+        "When the mince has browned, add 1 red onion and cook for 1 min",
+        "When the onion has softened, add 2 cloves garlic, QUANTITY harissa paste, QUANTITY chermoula spice, QUANTITY tomato purée and cook for 1 min",
+        "Add QUANTITY chicken stock and 100ml water, stirring the ingredients together. Bring to the boil and simmer until the sauce thickens slightly",
+        "Season to taste with salt and pepper",
+        "To make the tzatziki, in a separate bowl, mix 75g Greek style yoghurt, 1/2 cucumber, and 1/2 bunch mint leaves",
+        "Add the cooked rice to the frying pan and combine with the mince",
+        "Serve the rice and lamb in bowls with the tzatziki on top, topped with the remaining mint"
+      ],
+      "source": "HelloFresh",
+      "enabled": true
     }
   ]
 }
