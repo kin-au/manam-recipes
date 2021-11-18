@@ -1283,6 +1283,40 @@
       ],
       "source": "HelloFresh",
       "enabled": true
+    },
+    {
+      "id": 46,
+      "url": "bbq-chicken-and-wedges",
+      "name": "BBQ chicken and wedges",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "CUISINE",
+      "type": "Meal",
+      "servings": "2",
+      "time": 40,
+      "ingredients": [
+        "500g potatoes, cut into wedges",
+        "400g chicken breast",
+        "150g green beans, halved",
+        "1 red onion, thinly sliced",
+        "1 clove garlic, finely chopped",
+        "65g BBQ sauce",
+        "QUANTITY honey"
+      ],
+      "steps": [
+        "Preheat the oven to 200deg",
+        "Put 500g potatoes into a bowl. Drizzle with oil, season with salt and pepper, then toss to coat. Place the potatoes onto a baking tray and roast for 20mins, turning halfway through",
+        "Heat some oil on a large frying pan on medium-high heat. Place the 400g chicken breast onto the pan and brown both sides, around 3 mins each side",
+        "Place the chicken onto a baking tray to roast until cooked through, which should take around 15 mins",
+        "In the frying pan, stir fry 150g green beans, 1 red onion, and 1 clove garlic on medium-high heat. Add a dash of water and cover the pan to cook the beans",
+        "In a bowl, combine 65g BBQ sauce, QUANTITY honey, and 2 tbsp water. Stir together to make the sauce",
+        "Plate up the potato wedges and beans",
+        "Add the sauce to the frying pan, bring it to a boil while stirring, allowing it to reduce slightly",
+        "Place the chicken in the frying pan and coat with the sauce",
+        "Serve the chicken alongside the wedges and beans, adding any remaining sauce over the chicken"
+      ],
+      "source": "HelloFresh",
+      "enabled": true
     }
   ]
 }
