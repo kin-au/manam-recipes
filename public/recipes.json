@@ -1317,6 +1317,47 @@
       ],
       "source": "HelloFresh",
       "enabled": true
+    },
+    {
+      "id": 47,
+      "url": "penne-ragu-alforno",
+      "name": "Penne ragu alforno",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "Italian",
+      "type": "Meal",
+      "servings": "2",
+      "time": 40,
+      "ingredients": [
+        "250g minced beef",
+        "1 red onion, thinly sliced",
+        "1 carrot, grated",
+        "1 clove garlic, finely chopped",
+        "200g penne pasta",
+        "QUANTITY tomato purée",
+        "QUANTITY chopped tomatoes",
+        "30g red wine",
+        "1/2 tsp sugar",
+        "50ml water",
+        "1 bunch chives, finely chopped",
+        "125g mozzarella, torn into pieces",
+        "25g cheese, grated"
+      ],
+      "steps": [
+        "Preheat your oven to 200 deg",
+        "Heat a large saucepan of water. When boiling, add 200g penne pasta and cook for around 10 mins, until al dente. Drain and run cold water through the pasta",
+        "Add a drizzle of oil to a large frying pan on high heat. When hot, add 250g minced beef, breaking it up as it cooks",
+        "When the mince has browned, add 1 red onion, stirring together until softened",
+        "Add 1 carrot, 1 clove garlic and QUANTITY tomato purée to the frying pan",
+        "Stir the ingredients together then add QUANTITY chopped tomatoes, 30g red wine, 1/2 tsp sugar and 50ml water",
+        "Bring to the boil, then simmer for around 10 mins, so the sauce thickens",
+        "Season with salt and pepper to taste",
+        "Stir in 1/2 bunch chives to the frying pan, then transfer the contents to an ovenproof dish",
+        "Top evenly with 125g mozzarella and 25g cheese, and bake for around 8 mins until the cheese has melted",
+        "When done, serve the pasta bowls, topped with 1/2 bunch chives"
+      ],
+      "source": "HelloFresh",
+      "enabled": true
     }
   ]
 }
