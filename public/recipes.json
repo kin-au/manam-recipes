@@ -1357,6 +1357,48 @@
       ],
       "source": "HelloFresh",
       "enabled": true
+    },
+    {
+      "id": 48,
+      "url": "garlic-herb-bread-spirals",
+      "name": "Garlic and herb bread spirals",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "CUISINE",
+      "type": "Bake",
+      "servings": "PORTIONS",
+      "time": 0,
+      "ingredients": [
+        "500g strong white flour",
+        "10g dried yeast",
+        "12g salt",
+        "350ml lukewarm water",
+        "12g / 2 tbsp oil",
+        "85g butter, melted and cooled",
+        "3 cloves garlic, finely chopped",
+        "3g / 1 tbsp mixed herbs",
+        "1 egg, beaten",
+        "Sea salt"
+      ],
+      "steps": [
+        "Brush oil to cover a large baking tray",
+        "Combine 500g strong white flour, 10g dried yeast and 12g salt in a mixing bowl",
+        "Stir in 350ml lukewarm water and 6g / 1 tbsp oil to the mixing bowl, mixing it until soft and sticky",
+        "Place the dough onto a lightly floured surface and knead until smooth and no longer sticky",
+        "Put the dough back in the mixing bowl, cover and leave in a warm place until doubled in size, around 1 hr",
+        "Preheat the oven to 240deg",
+        "In another bowl, mix together 85g butter, 3 cloves garlic, 3g / 1 tbsp mixed herbs and 6g / 1 tbsp oil",
+        "Roll the dough out into a rectangle, approx 33 x 23cm",
+        "Evenly spread the herb mix over the dough, up to within 1cm of the edge",
+        "From one of the long sides of the rectangle, roll up the dough",
+        "Then cut the roll into 12 thick slices and place, with the cut side facing down, on the baking tray, around 2cm apart",
+        "Cover the baking tray and allow to rise in a warm place until doubled in size",
+        "Brush with the beaten egg and top with a sprinkle of sea salt",
+        "Bake for 20-25 mins until golden brown and firm",
+        "When done, bring the bread spirals out of the oven and allow to cool on a wire rack"
+      ],
+      "source": "Bake",
+      "enabled": true
     }
   ]
 }
