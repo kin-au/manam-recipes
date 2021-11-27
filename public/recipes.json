@@ -1399,6 +1399,37 @@
       ],
       "source": "Bake",
       "enabled": true
+    },
+    {
+      "id": 49,
+      "url": "shakshouka",
+      "name": "Shakshouka",
+      "description": "DESCRIPTION",
+      "image": "",
+      "cuisine": "CUISINE",
+      "type": "Meal",
+      "servings": "2",
+      "time": 20,
+      "ingredients": [
+        "2 red onions, sliced",
+        "1 red chilli",
+        "1 clove garlic, finely chopped",
+        "1 bunch coriander, roughly chopped",
+        "800g chopped tomatoes",
+        "1 tsp sugar",
+        "QUANTITY smoked paprika",
+        "4 eggs",
+        "QUANTITY crusty bread"
+      ],
+      "steps": [
+        "Heat a drizzle of oil in a large frying pan on medium-high heat, then add 2 red onions, 1 clove garlic, 1 red chilli, and 1/2 bunch coriander",
+        "When softened, stir in 800g chopped tomatoes, 1 tsp sugar and QUANTITY smoked paprika. Bring to the boil then simmer for 10 mins until thickened",
+        "Make 4 large dips in the sauce, and crack 1 egg into each one",
+        "Cover the frying pan with a lid and simmer for around 8 mins, until the eggs are cooked to your liking",
+        "Serve in bowls, topped with 1/2 bunch coriander, and QUANTITY bread on the side"
+      ],
+      "source": "BBC Good Food",
+      "enabled": true
     }
   ]
 }
