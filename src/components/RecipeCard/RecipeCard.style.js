@@ -27,6 +27,7 @@ const CardBody = styled.div`
 const RecipeText = styled.div`
   display: flex;
   flex-direction: column;
+  align-self: flex-start;
 `;
 
 const RecipeDetail = styled.div`

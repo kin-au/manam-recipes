@@ -14,18 +14,24 @@ const RecipeCard = (props: RecipeCardProps) => {
         <SC.CardHeader>{recipe.name}</SC.CardHeader>
         <SC.CardBody>
           <SC.RecipeText>
-            <SC.RecipeDetail>
-              <SC.SubHeader>Cuisine: </SC.SubHeader>
-              {recipe.cuisine}
-            </SC.RecipeDetail>
-            <SC.RecipeDetail>
-              <SC.SubHeader>Type: </SC.SubHeader>
-              {recipe.type}
-            </SC.RecipeDetail>
-            <SC.RecipeDetail>
-              <SC.SubHeader>Prep & cook time: </SC.SubHeader>
-              {recipe.time}mins
-            </SC.RecipeDetail>
+            {!recipe.cuisine ? null : (
+              <SC.RecipeDetail>
+                <SC.SubHeader>Cuisine: </SC.SubHeader>
+                {recipe.cuisine}
+              </SC.RecipeDetail>
+            )}
+            {!recipe.type ? null : (
+              <SC.RecipeDetail>
+                <SC.SubHeader>Type: </SC.SubHeader>
+                {recipe.type}
+              </SC.RecipeDetail>
+            )}
+            {!recipe.time ? null : (
+              <SC.RecipeDetail>
+                <SC.SubHeader>Prep & cook time: </SC.SubHeader>
+                {recipe.time}mins
+              </SC.RecipeDetail>
+            )}
           </SC.RecipeText>
           <RecipeImage recipeName={recipe.name} recipeImage={recipe.image} />
         </SC.CardBody>
