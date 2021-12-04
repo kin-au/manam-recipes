@@ -51,7 +51,7 @@ const Recipe = (props: RecipeProps) => {
       </SC.BackButton>
       <SC.Header>
         <h1>{recipe.name}</h1>
-        <div>{recipe.description}</div>
+        {!recipe.description ? null : <div>{recipe.description}</div>}
       </SC.Header>
       <SC.SubSection>
         <SC.SubHeader className="subheader">Cuisine: </SC.SubHeader>
