@@ -590,23 +590,23 @@
       "ingredients": [
         "100g Pad Thai noodles",
         "1/2 onion, diced",
-        "2 garlic cloves, crushed",
+        "2 cloves garlic, crushed",
         "2 eggs, beaten",
-        "Protein of choice (chicken, prawns, tofu)",
+        "QUANTITY diced chicken (alternatively, prawns or tofu",
         "1/4 lime",
-        "Chilli flakes",
-        "Peanuts, crushed",
-        "Pad Thai sauce"
+        "QUANTITY chilli flakes",
+        "QUANTITY peanuts, crushed",
+        "QUANTITY Pad Thai sauce"
       ],
       "steps": [
-        "Scald noodles in a bowl of boiled water for 3 minutes. You don’t want to cook them fully, just so that they become malleable. Drain and air dry in a colander",
-        "Cook the protein so that it’s 3/4 done and remove from pan. Wipe the pan",
-        "Heat a little bit of oil in the pan and add onions and garlic until aromatic",
-        "Make a well in the middle and add the egg. Incorporate it with the aromatics as it cooks",
+        "Scald 100g Pad Thai noodles in a bowl of boiled water for 3 minutes. You don’t want to cook them fully, just so that they become malleable. Drain and air dry in a colander",
+        "Cook QUANTITY diced chicken so that it’s 3/4 done and remove from pan. Wipe the pan",
+        "Heat a little bit of oil in the pan, then add 1/2 onion and 2 cloves garlic until aromatic",
+        "Make a well in the middle and add 2 eggs. Incorporate it with the aromatics as it cooks",
         "Toss in the noodles, breaking them up and cook until softened",
-        "Add back the chicken",
-        "When chicken is mostly cooked, add in the sauce and cook to distribute evenly. The moisture from this should also soften the noodles",
-        "Serve with peanuts and chilli flakes, and a slice of lime if desired"
+        "Add the meat back into the frying pan",
+        "When the meat is almost cooked, add QUANTITY Pad Thai sauce and stir in to distribute evenly. The moisture from this should also soften the noodles",
+        "Serve with QUANTITY peanuts and QUANTITY chilli flakes, and 1/4 slice of lime if desired"
       ],
       "source": "WxY recipes",
       "enabled": true
