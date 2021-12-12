@@ -9,6 +9,10 @@ const BackButton = styled.div`
   a {
     color: ${(props) => props.theme.primaryText};
     text-decoration: none;
+    transition-duration: 0.1s;
+    :hover {
+      color: #e5a4cb;
+    }
   }
 `;
 
