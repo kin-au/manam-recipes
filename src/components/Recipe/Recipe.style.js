@@ -1,18 +1,24 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const Recipe = styled.div`
   /* margin: 0 1rem; */
 `;
 
-const BackButton = styled.div`
+const Arrow = styled.span`
+  font-size: 1.2rem;
+  margin-right: 0.25rem;
+`;
+
+const StyledLink = styled(Link)`
   margin: 1rem 0;
-  a {
-    color: ${(props) => props.theme.primaryText};
-    text-decoration: none;
-    transition-duration: 0.1s;
-    :hover {
-      color: #e5a4cb;
-    }
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: ${(props) => props.theme.primaryText};
+  transition-duration: 0.1s;
+  :hover {
+    color: #e5a4cb;
   }
 `;
 
@@ -56,7 +62,8 @@ const OrderedList = styled.ol`
 
 export {
   Recipe,
-  BackButton,
+  Arrow,
+  StyledLink,
   Header,
   SubHeader,
   SubSection,

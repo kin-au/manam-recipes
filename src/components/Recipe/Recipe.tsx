@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import * as SC from "./Recipe.style.js";
 import { RecipeProps } from "./types";
 import DOMPurify from "dompurify";
@@ -46,9 +45,10 @@ const Recipe = (props: RecipeProps) => {
 
   return (
     <SC.Recipe>
-      <SC.BackButton>
-        <Link to={"/recipes"}>Back to Search</Link>
-      </SC.BackButton>
+      <SC.StyledLink to={"/recipes"}>
+        <SC.Arrow className="material-icons-round">arrow_back_ios</SC.Arrow>
+        <span>back to Search</span>
+      </SC.StyledLink>
       <SC.Header>
         <h1>{recipe.name}</h1>
         {!recipe.description ? null : <div>{recipe.description}</div>}
