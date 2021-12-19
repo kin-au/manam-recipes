@@ -5,6 +5,10 @@ const Recipe = styled.div`
   /* margin: 0 1rem; */
 `;
 
+const BackButton = styled.span`
+  display: inline-block;
+`;
+
 const Arrow = styled.span`
   font-size: 1.2rem;
   margin-right: 0.25rem;
@@ -12,6 +16,7 @@ const Arrow = styled.span`
 
 const StyledLink = styled(Link)`
   margin: 1rem 0;
+  padding-right: 0.5rem;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -62,6 +67,7 @@ const OrderedList = styled.ol`
 
 export {
   Recipe,
+  BackButton,
   Arrow,
   StyledLink,
   Header,

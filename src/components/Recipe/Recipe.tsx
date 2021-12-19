@@ -45,10 +45,12 @@ const Recipe = (props: RecipeProps) => {
 
   return (
     <SC.Recipe>
-      <SC.StyledLink to={"/recipes"}>
-        <SC.Arrow className="material-icons-round">arrow_back_ios</SC.Arrow>
-        <span>back to Search</span>
-      </SC.StyledLink>
+      <SC.BackButton>
+        <SC.StyledLink to={"/recipes"}>
+          <SC.Arrow className="material-icons-round">arrow_back_ios</SC.Arrow>
+          <span>back to Search</span>
+        </SC.StyledLink>
+      </SC.BackButton>
       <SC.Header>
         <h1>{recipe.name}</h1>
         {!recipe.description ? null : <div>{recipe.description}</div>}
