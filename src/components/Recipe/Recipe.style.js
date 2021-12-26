@@ -2,11 +2,12 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const Recipe = styled.div`
-  /* margin: 0 1rem; */
+  margin-bottom: 2rem;
 `;
 
 const BackButton = styled.span`
   display: inline-block;
+  margin-bottom: 1rem;
 `;
 
 const Arrow = styled.span`
@@ -34,7 +35,7 @@ const Header = styled.header`
 `;
 
 const SubSection = styled.div`
-  margin-top: 1.2rem;
+  margin-top: 1.5rem;
 `;
 
 const SubHeader = styled.h2`
