@@ -1434,6 +1434,56 @@
       ],
       "source": "BBC Good Food",
       "enabled": true
+    },
+    {
+      "id": 50,
+      "url": "focaccia",
+      "name": "Focaccia",
+      "description": null,
+      "image": "",
+      "cuisine": null,
+      "type": "Bake",
+      "servings": null,
+      "time": 60,
+      "ingredients": [
+        "800g strong white bread flour",
+        "13g salt",
+        "600g water, lukewarm (mix 1/3 boiling, 2/3 cold)",
+        "2g yeast",
+        "15g honey",
+        "80g olive oil",
+        "80g water, room temperature",
+        "5g salt",
+        "2 red onions, sliced into rounds",
+        "10 cherry tomatoes, halved",
+        "Rosemary"
+      ],
+      "steps": [
+        "In a very big bowl, mix 800g strong white bread flour with 13g salt",
+        "With 600g lukewarm water in a measuring jug, stir in 15g honey until dissolved, then stir in 2g yeast",
+        "Pour the contents of the measuring jug and 50g olive oil into the big bowl of flour and mix together with your hands",
+        "Use a spooning motion to make sure that all the ingredients are well incorporated. You should have a big sticky ball of dough",
+        "Add the remaining 30g olive oil on top of the ball of dough",
+        "Use your hands to bring the dough away from the bowl and let the oil drip down to create a barrier between the dough and the bowl. Make sure the bottom of the dough also has some oil",
+        "Loosely put clingfilm or a cloth on top of the bowl",
+        "Leave the bowl in a warm place overnight (12 hours). Optionally, place the bowl on a tray in case the mix spills when it grows",
+        "Line a large oven sheet tray with greaseproof paper and drizzle with olive oil, spreading it so it covers all the paper",
+        "Tip the dough onto the tray and use your fingers to get it to cover the tray",
+        "Allow the dough to rest for 30mins. While the dough is resting, prepare your toppings",
+        "Make the brine by mixing 5g salt with 80g room temperature water",
+        "Preheat your oven to 250deg",
+        "Once the dough has rested, use your fingers to gently move and stretch the dough to the corners of the tray. Pop any bubbles that may have formed",
+        "Leave the dough to rest for another 15mins",
+        "Using your fingertips, make indents across the top of the focaccia",
+        "Put on your toppings however you want",
+        "Evenly distribute the brine on the focaccia, using a spoon to drizzle it on top",
+        "Drizzle some more olive oil on top then let it rest for another 10mins",
+        "Put the focaccia in the middle/top of your oven, the turn down the temperature to 230deg",
+        "After 23mins, check on the focaccia. It should be golden brown; if it's not quite there yet, continue to bake and check it at 5min intervals",
+        "Serve with olive oil and balsamic vinegar"
+      ],
+      "source": "Jeng",
+      "enabled": true
     }
   ]
 }
